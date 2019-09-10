@@ -2,7 +2,7 @@
 
 Repositório para o desenvolvimento do trabalho de Requisitos de Software sobre o Audible - 2019/2
 
-[Requisitos 2.2019 - Audible](https://requisitos2-2019.github.io/2019.2-Audible/)
+[Requisitos 2.2019 - Audible](https://requisitos-de-software.github.io/2019.2-Audible/)
 
 ## Equipe
 
