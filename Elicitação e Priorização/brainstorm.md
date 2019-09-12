@@ -64,4 +64,4 @@ RNF10 | O usuário deve poder visualizar as avaliações de outros usuários ant
 ### Versionamento
 | Data | Versão | Descrição | Autor |
 | :--: | :---:  | --------- | :---: |
-| 12/09/2019 | 1.0 | Brainstorm V1 | Ian Rocha |
+| 12/09/2019 | 1.0 | Brainstorm V1 | [Ian Rocha](https://github.com/IanPSRocha) |
