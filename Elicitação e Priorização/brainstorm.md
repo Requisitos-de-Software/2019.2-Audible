@@ -25,12 +25,12 @@ A técnica propõe que o grupo se reúna e utilize a diversidade de pensamentos 
 
 Abaixo segue uma transcrição das principais ideias levantadas durante a reunião.
 
-ML: O aplicativo deve fornecer áudio de alta qualidade. A biblioteca/loja de audiolivros deve ser bem categorizada. O usuário deve ser capaz de personalizar a reprodução do áudio livro (ex: acelerar/reduzir a velocidade de reprodução).
-IR: O aplicativo deve ofertar áudio livros. O usuário pode avaliar as avaliações. O usuário pode baixar os livros localmente para escutar mesmo off-line. O usuário tem que ter acesso a uma barra de pesquisa para poder pesquisar palavras-chaves, autores, títulos, narrador, editora. O sistema deve fornecer uma grande variedade de línguas. O sistema deve ter uma gama de audiolivros próprios.
-AG: O usuário poderá salvar títulos em uma lista de desejos de fácil acesso a qualquer momento no app. O aplicativo deve conter um ambiente para reprodução dos próprios audiolivros.
-MA: O usuário tem acesso a uma prévia do livro antes de efetuar a compra. O usuário pode cancelar o livro a qualquer momento. O app é multiplataforma iOS (Apple iPhone, Apple Watch, iPad), Android, Sonos, Kindle e Dispositivos habilitados para Alexa.
-TB: Deve haver variedade de livros disponíveis para o usuário. O aplicativo deve ser capaz de salvar o progresso de leitura do usuário, para que ele consiga ouvir de onde parou.
-JG: O usuário deve ser capaz de avaliar o livro de acordo com sua experiência. 
+* ML: O aplicativo deve fornecer áudio de alta qualidade. A biblioteca/loja de audiolivros deve ser bem categorizada. O usuário deve ser capaz de personalizar a reprodução do áudio livro (ex: acelerar/reduzir a velocidade de reprodução).
+* IR: O aplicativo deve ofertar áudio livros. O usuário pode avaliar as avaliações. O usuário pode baixar os livros localmente para escutar mesmo off-line. O usuário tem que ter acesso a uma barra de pesquisa para poder pesquisar palavras-chaves, autores, títulos, narrador, editora. O sistema deve fornecer uma grande variedade de línguas. O sistema deve ter uma gama de audiolivros próprios.
+* AG: O usuário poderá salvar títulos em uma lista de desejos de fácil acesso a qualquer momento no app. O aplicativo deve conter um ambiente para reprodução dos próprios audiolivros.
+* MA: O usuário tem acesso a uma prévia do livro antes de efetuar a compra. O usuário pode cancelar o livro a qualquer momento. O app é multiplataforma iOS (Apple iPhone, Apple Watch, iPad), Android, Sonos, Kindle e Dispositivos habilitados para Alexa.
+* TB: Deve haver variedade de livros disponíveis para o usuário. O aplicativo deve ser capaz de salvar o progresso de leitura do usuário, para que ele consiga ouvir de onde parou.
+* JG: O usuário deve ser capaz de avaliar o livro de acordo com sua experiência. 
 
 ## Requisitos Elicitados
 
