@@ -60,6 +60,8 @@ INS03 | Adição de um tutorial de como usar o aplicativo. | Should
 |---|---|---|
 |INS04 | Adicionar mais opções como artigos e revistas científicas. | Would|
 
+## Versionamento
+
 |Data|Versão|Descrição|Autor|
 |---|---|---|---|
 |12/09/2019|1.0|Adição da introspecção| [André Goretti](https://github.com/AGoretti)
