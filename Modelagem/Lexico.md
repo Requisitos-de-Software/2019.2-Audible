@@ -2,7 +2,9 @@
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 | ------ | ---- | ----------- | ----- |
-| 1.0 | 28/09/2019 | Léxico | João Gabriel Antunes
+| 1.0 | 28/09/2019 | Léxico. | João Gabriel Antunes |
+| 1.0 | 28/09/2019 | Adição de dois novos vocabulos. | João Gabriel Antunes |
+
 ## Introdução
 ### O léxico trata-se de uma técnica que procura descrever os símbolos de uma linguagem, e o principal objetivo a ser perseguido na fase de modelagem é a identificação de palavras, frases ou expressões peculiares ao meio social da aplicação sob estudo.
 ### Os símbolos são definidos da seguinte forma:
@@ -63,3 +65,13 @@
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
 | Objeto | Ator, dublador ou pessoa convidada pelos editores da plataforma para gravar sua voz e dar vida ao audiolivro. | Atrai usuários para a plataforma e fomenta o desenvolvimento do sistema. | - |
+
+### **Player**
+| Classificação | Noção | Impacto | Sinônimos |
+| ------------- | ----- | ------- | --------- |
+| Objeto | Ferramenta utilizada para ouvir audiolivros no aplicativo. | Permite personalizar a experiência ao ouvir um audiolivro (pausando, acelerando ou destacando partes durante a reprodução do audiolivro). | - |
+
+### **Amostra**
+| Classificação | Noção | Impacto | Sinônimos |
+| ------------- | ----- | ------- | --------- |
+| Objeto | Pequena parte de uma audiolivro, normalmente o início da obra, e que pode ser consumida sem gastos. | Permite ao usuário experimentar a narração e o texto da obra antes de efetuar a compra para decidir se lhe agrada. | Demonstração, prévia. |
