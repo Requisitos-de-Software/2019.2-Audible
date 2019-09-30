@@ -34,3 +34,19 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |**Restrições**| |
 |**Exceções**| Internet indisponível <br> livro não encontrado |
 |**Episódios**|Usuário digita o que quer procurar na aba de pesquisa. <br> Usuário entra na sugestão sugeria <br> ou <br> entra em uma página de livros possíveis.|
+
+<br>
+<br>
+<br>
+
+|C2|Assinar Audible|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| André Goretti|
+|**Metas**|Ter acesso ao serviço de assinatura completo|
+|**Contexto**|**O que?**<br>>Assinar o serviço<br> **Onde?**<br>>Nos links ao entrar no site/app<br> **Quando?**<br>>Quando vc quer ter acesso <br> **Por que?**<br>>Para conseguir ouvir livros<br>|
+|**Atores**|Usuários <br> Serviço da Amazon de compras|
+|**Recursos**|O app <br> Internet <br> serviço amazon <br> Dinheiro|
+|**Restrições**| Ter conta amazon|
+|**Exceções**| Internet/serviço indisponível <br> Falta de dinheiro|
+|**Episódios**|O usuário entra no app e decide contratar o serviço para poder usar livros de graça e ganhar bonificações.|
