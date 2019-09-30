@@ -3,7 +3,7 @@
 | Versão | Data | Modificação | Autor |
 | ------ | ---- | ----------- | ----- |
 | 1.0 | 28/09/2019 | Léxico. | João Gabriel Antunes |
-| 1.0 | 28/09/2019 | Adição de dois novos vocabulos. | João Gabriel Antunes |
+| 1.1 | 28/09/2019 | Adição de dois novos vocabulos. | João Gabriel Antunes |
 
 ## Introdução
 ### O léxico trata-se de uma técnica que procura descrever os símbolos de uma linguagem, e o principal objetivo a ser perseguido na fase de modelagem é a identificação de palavras, frases ou expressões peculiares ao meio social da aplicação sob estudo.
