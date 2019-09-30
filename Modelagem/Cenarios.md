@@ -31,7 +31,7 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |**Contexto**|**O que?** <br> Achar o livro<br> **Onde?**<br>Em qualquer Página<br> **Quando?**<br>Antes de ouvir o livro <br> **Por que?**<br>Para conseguir Achar o livro desejado<br>|
 |**Atores**|Audible <br> Usuário|
 |**Recursos**|Internet <br> |
-|**Restrições**| |
+|**Restrições**|Ter internet |
 |**Exceções**| Internet indisponível <br> livro não encontrado |
 |**Episódios**|Usuário digita o que quer procurar na aba de pesquisa. <br> Usuário entra na sugestão sugeria <br> ou <br> entra em uma página de livros possíveis.|
 
@@ -50,3 +50,20 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |**Restrições**| Ter conta amazon|
 |**Exceções**| Internet/serviço indisponível <br> Falta de dinheiro|
 |**Episódios**|O usuário entra no app e decide contratar o serviço para poder usar livros de graça e ganhar bonificações.|
+
+<br>
+<br>
+<br>
+
+|C3|Dublar novo livro|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| André Goretti|
+|**Metas**|Adicionar livros novos|
+|**Contexto**|**O que?**<br>>contratar dubladores para novos livros<br> **Onde?**<br>>estúdio de dublagem <br> **Quando?**<br>>Quando um editora liberar novo livro <br> **Por que?**<br>>Para ter mais livros em oferta <br>|
+|**Atores**|Serviços da Amazon <br> Dubladores |
+|**Recursos**|Dinheiro para pagar o dublador <br> Lugar para gravar o livro <br> O Dublador|
+|**Restrições**|Ter acesso ao livro pelas editoras|
+|**Exceções**|Dublagem não ficar qualidade boa <br> |
+|**Episódios**|A equipe do app Contrata dubladores para adicionar novos livros utilizando recursos da amazon.|
+
