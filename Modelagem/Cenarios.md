@@ -114,3 +114,19 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |**Restrições**|-|
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Usuário entra na aba "more" <br> Usuário seleciona a opção "settings" <br> Usuário seleciona a opção "sign out" <br> Usuário confirma a ação <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C7|Experimentar o aplicativo|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
