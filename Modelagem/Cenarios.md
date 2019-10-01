@@ -98,3 +98,19 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |**Restrições**|-|
 |**Exceções**|Esquecer a senha <br> Esquecer o e-mail <br> Não ter cadastro |
 |**Episódios**|Inicializar o Audible <br> Clicar em "get started" ou "sign in" <br> Inserir email e senha <br> Clicar em "continue"|
+
+<br>
+<br>
+<br>
+
+|C6|Sair do aplicativo Audible|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Sair de uma conta logada|
+|**Contexto**|**Local:**<br>>Aba "more", na opção da engrenagem ("settings")<br> **Pré-Condição:**<br>>o usuário deverá estar logado <br> **Pós-Condição:**<br>>O usuário não estará mais logado <br>|
+|**Atores**|Usuário logado |
+|**Recursos**|Internet, aplicativo, conta de usuário |
+|**Restrições**|-|
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Usuário entra na aba "more" <br> Usuário seleciona a opção "settings" <br> Usuário seleciona a opção "sign out" <br> Usuário confirma a ação <br> Usuário visualiza a o app Audible como visitante|
