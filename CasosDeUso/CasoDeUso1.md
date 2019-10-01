@@ -1,4 +1,4 @@
-## 1 - Caso de Uso: Biblioteca bem categorizada
+## 1 - Caso de Uso: Encontrar audiolivros por gênero
 
 |         Sigla          |                                           Definição                                            |
 | :--------------------: | -------------------------------------------------------------------------------------------- |
