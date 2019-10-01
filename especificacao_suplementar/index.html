@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Repositório da disciplina de Requisitos 2019.1">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
+    
+    
+      
+        <title>Especificação Suplementar - Guiabolso</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.11e41852.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.20ef595d.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/datatables.css">
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#introducao" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="Guiabolso" class="md-header-nav__button md-logo">
+          
+            <img src="../../favicon.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Guiabolso
+              </span>
+              <span class="md-header-nav__topic">
+                Especificação Suplementar
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/rafaelmakaha/2019.1-Guia-Bolso/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="Guiabolso" class="md-nav__button md-logo">
+      
+        <img src="../../favicon.png" width="48" height="48">
+      
+    </a>
+    Guiabolso
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/rafaelmakaha/2019.1-Guia-Bolso/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Pré rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Pré rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pre-rastreabilidade/richpicture/" title="Richpicture" class="md-nav__link">
+      Richpicture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pre-rastreabilidade/argumentacao/" title="Argumentação" class="md-nav__link">
+      Argumentação
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Elicitação de requisitos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Elicitação de requisitos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao-de-requisitos/prototipacao/" title="Prototipação" class="md-nav__link">
+      Prototipação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao-de-requisitos/analise-de-protocolo/" title="Análise de protocolo" class="md-nav__link">
+      Análise de protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao-de-requisitos/questionario/" title="Questionário" class="md-nav__link">
+      Questionário
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao-de-requisitos/brainstorm/" title="Brainstorm" class="md-nav__link">
+      Brainstorm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao-de-requisitos/introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao-de-requisitos/entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao-de-requisitos/storytelling/" title="Storytelling" class="md-nav__link">
+      Storytelling
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao-de-requisitos/requisitos/" title="Requisitos elicitados" class="md-nav__link">
+      Requisitos elicitados
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Especificação Suplementar
+      </label>
+    
+    <a href="./" title="Especificação Suplementar" class="md-nav__link md-nav__link--active">
+      Especificação Suplementar
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" title="Introdução" class="md-nav__link">
+    Introdução
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#finalidade" title="Finalidade" class="md-nav__link">
+    Finalidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escopo" title="Escopo" class="md-nav__link">
+    Escopo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps01-funcionalidades" title="EPS01: Funcionalidades" class="md-nav__link">
+    EPS01: Funcionalidades
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps02-usabilidade" title="EPS02: Usabilidade" class="md-nav__link">
+    EPS02: Usabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interface-grafica-simples-e-minimalista" title="Interface gráfica simples e minimalista" class="md-nav__link">
+    Interface gráfica simples e minimalista
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pequena-curva-de-aprendizado" title="Pequena curva de aprendizado" class="md-nav__link">
+    Pequena curva de aprendizado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#facilidade-de-uso" title="Facilidade de Uso" class="md-nav__link">
+    Facilidade de Uso
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#padroes-visuais" title="Padrões Visuais" class="md-nav__link">
+    Padrões Visuais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conhecimentos-previos" title="Conhecimentos prévios" class="md-nav__link">
+    Conhecimentos prévios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agilidade" title="Agilidade" class="md-nav__link">
+    Agilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feedbacks" title="Feedbacks" class="md-nav__link">
+    Feedbacks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps03-confiabilidade" title="EPS03: Confiabilidade" class="md-nav__link">
+    EPS03: Confiabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#disponibilidade" title="Disponibilidade" class="md-nav__link">
+    Disponibilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integridade-dos-dados" title="Integridade dos Dados" class="md-nav__link">
+    Integridade dos Dados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#privacidade-dos-dados" title="Privacidade dos Dados" class="md-nav__link">
+    Privacidade dos Dados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transparencia" title="Transparência" class="md-nav__link">
+    Transparência
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suporte-a-falhas" title="Suporte a falhas" class="md-nav__link">
+    Suporte a falhas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps04-desempenho" title="EPS04: Desempenho" class="md-nav__link">
+    EPS04: Desempenho
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acessos-simultaneos" title="Acessos simultâneos" class="md-nav__link">
+    Acessos simultâneos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rapidez-de-resposta" title="Rapidez de resposta" class="md-nav__link">
+    Rapidez de resposta
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armazenamento" title="Armazenamento" class="md-nav__link">
+    Armazenamento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#localizacao" title="Localização" class="md-nav__link">
+    Localização
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps05-suportabilidade" title="EPS05: Suportabilidade" class="md-nav__link">
+    EPS05: Suportabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#internet" title="Internet" class="md-nav__link">
+    Internet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dispositivos-apple" title="Dispositivos Apple" class="md-nav__link">
+    Dispositivos Apple
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dispositivos-android" title="Dispositivos Android" class="md-nav__link">
+    Dispositivos Android
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permanencia-de-dados" title="Permanência de dados" class="md-nav__link">
+    Permanência de dados
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps06-restricao-de-design" title="EPS06: Restrição de Design" class="md-nav__link">
+    EPS06: Restrição de Design
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#suporte-a-idioma" title="Suporte a idioma" class="md-nav__link">
+    Suporte a idioma
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navegacao" title="Navegação" class="md-nav__link">
+    Navegação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conteudo" title="Conteúdo" class="md-nav__link">
+    Conteúdo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cadastro" title="Cadastro" class="md-nav__link">
+    Cadastro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suporte-ao-usuario" title="Suporte ao usuário" class="md-nav__link">
+    Suporte ao usuário
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps07-requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line" title="EPS07: Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line" class="md-nav__link">
+    EPS07: Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sessao-de-ajuda" title="Sessão de Ajuda" class="md-nav__link">
+    Sessão de Ajuda
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps08-componentes-comprados" title="EPS08: Componentes Comprados" class="md-nav__link">
+    EPS08: Componentes Comprados
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bibliotecas" title="Bibliotecas" class="md-nav__link">
+    Bibliotecas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#servidor" title="Servidor" class="md-nav__link">
+    Servidor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#infra-estrutura-de-desenvolvimento" title="Infra-estrutura de desenvolvimento" class="md-nav__link">
+    Infra-estrutura de desenvolvimento
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps09-padroes-aplicaveis" title="EPS09: Padrões aplicáveis" class="md-nav__link">
+    EPS09: Padrões aplicáveis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps10-interfaces" title="EPS10: Interfaces" class="md-nav__link">
+    EPS10: Interfaces
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-de-usuario" title="Interfaces de Usuário" class="md-nav__link">
+    Interfaces de Usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interface-de-hardware" title="Interface de Hardware" class="md-nav__link">
+    Interface de Hardware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interface-de-software" title="Interface de Software" class="md-nav__link">
+    Interface de Software
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps11-requisitos-de-licenciamento" title="EPS11: Requisitos de Licenciamento" class="md-nav__link">
+    EPS11: Requisitos de Licenciamento
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#termos-de-uso" title="Termos de Uso" class="md-nav__link">
+    Termos de Uso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observacoes-legais-de-direitos-autorais-etc" title="Observações Legais, de Direitos Autorais etc" class="md-nav__link">
+    Observações Legais, de Direitos Autorais etc
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../casos_de_uso/" title="Casos de uso" class="md-nav__link">
+      Casos de uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../backlog/" title="Backlog do produto" class="md-nav__link">
+      Backlog do produto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../istar/" title="Istar" class="md-nav__link">
+      Istar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nfr/" title="NFR" class="md-nav__link">
+      NFR
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Análise e Validação
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Análise e Validação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/analise_introducao/" title="Introdução" class="md-nav__link">
+      Introdução
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/analise_rich_picture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/analise_cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/analise_lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/analise_storytelling/" title="Storytelling" class="md-nav__link">
+      Storytelling
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/analise_casos_de_uso/" title="Caso de uso" class="md-nav__link">
+      Caso de uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/analise_backlog/" title="Backlog" class="md-nav__link">
+      Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/analise_nfr/" title="NFR" class="md-nav__link">
+      NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/analise_istar/" title="Istar" class="md-nav__link">
+      Istar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../analise/validacao/" title="Validação" class="md-nav__link">
+      Validação
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Pós rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Pós rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pos-rastreabilidade/backward/" title="Backward-From" class="md-nav__link">
+      Backward-From
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pos-rastreabilidade/forward/" title="Forward-From" class="md-nav__link">
+      Forward-From
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" title="Introdução" class="md-nav__link">
+    Introdução
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#finalidade" title="Finalidade" class="md-nav__link">
+    Finalidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escopo" title="Escopo" class="md-nav__link">
+    Escopo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps01-funcionalidades" title="EPS01: Funcionalidades" class="md-nav__link">
+    EPS01: Funcionalidades
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps02-usabilidade" title="EPS02: Usabilidade" class="md-nav__link">
+    EPS02: Usabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interface-grafica-simples-e-minimalista" title="Interface gráfica simples e minimalista" class="md-nav__link">
+    Interface gráfica simples e minimalista
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pequena-curva-de-aprendizado" title="Pequena curva de aprendizado" class="md-nav__link">
+    Pequena curva de aprendizado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#facilidade-de-uso" title="Facilidade de Uso" class="md-nav__link">
+    Facilidade de Uso
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#padroes-visuais" title="Padrões Visuais" class="md-nav__link">
+    Padrões Visuais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conhecimentos-previos" title="Conhecimentos prévios" class="md-nav__link">
+    Conhecimentos prévios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agilidade" title="Agilidade" class="md-nav__link">
+    Agilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feedbacks" title="Feedbacks" class="md-nav__link">
+    Feedbacks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps03-confiabilidade" title="EPS03: Confiabilidade" class="md-nav__link">
+    EPS03: Confiabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#disponibilidade" title="Disponibilidade" class="md-nav__link">
+    Disponibilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integridade-dos-dados" title="Integridade dos Dados" class="md-nav__link">
+    Integridade dos Dados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#privacidade-dos-dados" title="Privacidade dos Dados" class="md-nav__link">
+    Privacidade dos Dados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transparencia" title="Transparência" class="md-nav__link">
+    Transparência
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suporte-a-falhas" title="Suporte a falhas" class="md-nav__link">
+    Suporte a falhas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps04-desempenho" title="EPS04: Desempenho" class="md-nav__link">
+    EPS04: Desempenho
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acessos-simultaneos" title="Acessos simultâneos" class="md-nav__link">
+    Acessos simultâneos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rapidez-de-resposta" title="Rapidez de resposta" class="md-nav__link">
+    Rapidez de resposta
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armazenamento" title="Armazenamento" class="md-nav__link">
+    Armazenamento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#localizacao" title="Localização" class="md-nav__link">
+    Localização
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps05-suportabilidade" title="EPS05: Suportabilidade" class="md-nav__link">
+    EPS05: Suportabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#internet" title="Internet" class="md-nav__link">
+    Internet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dispositivos-apple" title="Dispositivos Apple" class="md-nav__link">
+    Dispositivos Apple
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dispositivos-android" title="Dispositivos Android" class="md-nav__link">
+    Dispositivos Android
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permanencia-de-dados" title="Permanência de dados" class="md-nav__link">
+    Permanência de dados
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps06-restricao-de-design" title="EPS06: Restrição de Design" class="md-nav__link">
+    EPS06: Restrição de Design
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#suporte-a-idioma" title="Suporte a idioma" class="md-nav__link">
+    Suporte a idioma
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navegacao" title="Navegação" class="md-nav__link">
+    Navegação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conteudo" title="Conteúdo" class="md-nav__link">
+    Conteúdo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cadastro" title="Cadastro" class="md-nav__link">
+    Cadastro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suporte-ao-usuario" title="Suporte ao usuário" class="md-nav__link">
+    Suporte ao usuário
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps07-requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line" title="EPS07: Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line" class="md-nav__link">
+    EPS07: Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sessao-de-ajuda" title="Sessão de Ajuda" class="md-nav__link">
+    Sessão de Ajuda
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps08-componentes-comprados" title="EPS08: Componentes Comprados" class="md-nav__link">
+    EPS08: Componentes Comprados
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bibliotecas" title="Bibliotecas" class="md-nav__link">
+    Bibliotecas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#servidor" title="Servidor" class="md-nav__link">
+    Servidor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#infra-estrutura-de-desenvolvimento" title="Infra-estrutura de desenvolvimento" class="md-nav__link">
+    Infra-estrutura de desenvolvimento
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps09-padroes-aplicaveis" title="EPS09: Padrões aplicáveis" class="md-nav__link">
+    EPS09: Padrões aplicáveis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps10-interfaces" title="EPS10: Interfaces" class="md-nav__link">
+    EPS10: Interfaces
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-de-usuario" title="Interfaces de Usuário" class="md-nav__link">
+    Interfaces de Usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interface-de-hardware" title="Interface de Hardware" class="md-nav__link">
+    Interface de Hardware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interface-de-software" title="Interface de Software" class="md-nav__link">
+    Interface de Software
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eps11-requisitos-de-licenciamento" title="EPS11: Requisitos de Licenciamento" class="md-nav__link">
+    EPS11: Requisitos de Licenciamento
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#termos-de-uso" title="Termos de Uso" class="md-nav__link">
+    Termos de Uso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observacoes-legais-de-direitos-autorais-etc" title="Observações Legais, de Direitos Autorais etc" class="md-nav__link">
+    Observações Legais, de Direitos Autorais etc
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/rafaelmakaha/2019.1-Guia-Bolso/edit/master/docs/modelagem/especificacao.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>Especificação Suplementar</h1>
+                
+                <h2 id="introducao">Introdução</h2>
+<p>Uma especificação suplementar lista os requisitos não-funcionais do sistema, junto com as outras técnicas de modelagem e elicitação utilizadas é possível capturar o conjunto completo de requisitos do sistema. Entre estes requisitos estão incluídos: os atributos de qualidade do sistema a ser criado, abrangendo requisitos de usabilidade, desempenho e suportabilidade. Além de outros requisitos, como sistemas operacionais e ambientes, requisitos de compatibilidade, restrições de design e legislação associada.</p>
+<h3 id="finalidade">Finalidade</h3>
+<p>Este documento tem por finalidade definir os requisitos não funcionais do aplicativo Guiabolso que não foram explicitados nas outras técnicas de modelagem de requisitos.</p>
+<h3 id="escopo">Escopo</h3>
+<p>Esta especificação define os requisitos não-funcionais associados a usabilidade, confiabilidade, desempenho e suportabilidade, interfaces do sistema, restrições de design, requisitos de licenciamento, observações legais e padrões aplicáveis da aplicação móvel do Guiabolso.</p>
+<h2 id="eps01-funcionalidades">EPS01: Funcionalidades</h2>
+<p>As funcionalidades já elicitadas podem ser encontradas por toda a <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/">documentação</a> feita pelo grupo.</p>
+<h2 id="eps02-usabilidade">EPS02: Usabilidade</h2>
+<p>Este tópico específica os requisitos relacionados a qualidade da interação do usuário com o aplicativo.</p>
+<h3 id="interface-grafica-simples-e-minimalista">Interface gráfica simples e minimalista</h3>
+<p>A interface gráfica deve ser simples e minimalista, com design intuitivo e sem excesso de comandos, sendo fácil de ser utilizada e reduzindo o tempo necessário para realizar qualquer tarefa dentro da aplicação.<br>Rastro: <a href="../../elicitacao-de-requisitos/questionario/">Questionário</a></p>
+<h3 id="pequena-curva-de-aprendizado">Pequena curva de aprendizado</h3>
+<p>O aplicativo deve ter e dicas ou tutoriais de uso para que o usuário tenha um aprendizado rápido e pequeno. Além de ter um padrão de fluxo lógico para que o usuário possa ser treinado enquanto usa a aplicação.
+<br> Rastro: Não possui.</p>
+<h3 id="facilidade-de-uso">Facilidade de Uso</h3>
+<p>O usuário executa ações críticas em no máximo 5 clicks. 
+<br> Rastro: Não possui.</p>
+<h3 id="padroes-visuais">Padrões Visuais</h3>
+<p>A interface deve utilizar padrões visuais de informação com cores e ícones intuitivos que ajude na identificação de itens e de funcionalidades.
+<br> Rastro: <a href="../../elicitacao-de-requisitos/questionario/">Questionário</a> e <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">Brainstorm 1</a></p>
+<h3 id="conhecimentos-previos">Conhecimentos prévios</h3>
+<p>A aplicação exigirá do usuário que ele saiba usar sistema móveis Androids ou IOS e que tenha conhecimentos mínimos relacionados ao controle de finanças como: renda, gasto, transação, conta bancária etc.
+<br>Rastro: <a href="../../pre-rastreabilidade/richpicture/#rp02-usabilidade">RichPicture 2</a> </p>
+<h3 id="agilidade">Agilidade</h3>
+<p>O aplicativo deve oferecer agilidade no momento em que o usuário executa funcionalidades básicas e principais.
+<br> Rastro: <a href="../../elicitacao-de-requisitos/questionario/">Questionário</a> e <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">Brainstorm 1</a></p>
+<h3 id="feedbacks"><em>Feedbacks</em></h3>
+<p>O sistema deve dar <em>feedbacks</em> ao usuário, de forma que ele entenda o antes, durante e depois das suas ações no sistema.
+<br> Rastro: Não possui.</p>
+<h2 id="eps03-confiabilidade">EPS03: Confiabilidade</h2>
+<p>Os requisitos de confiabilidade demonstram a capacidade da aplicação de manter, em situação hostis, o funcionamento e segurança que foram acordados.</p>
+<h3 id="disponibilidade">Disponibilidade</h3>
+<p>Os servidores do  aplicativo devem mantê-lo disponível o maior tempo possível enquanto instalado no celular do usuário. Se houver indisponibildade por motivos de manutenção ou atualização, o usuário deve ser previamente avisado.
+<br> Rastro: Não possui</p>
+<h3 id="integridade-dos-dados">Integridade dos Dados</h3>
+<p>Os dados exibidos na aplicação devem ser condizentes com o que está no banco de dados e devem sempre estar atualizados, mesmo após uma falha.
+<br> Rastro: Não possui</p>
+<h3 id="privacidade-dos-dados">Privacidade dos Dados</h3>
+<p>Em caso de ataques ou vazamento de informações, o aplicativo deve passar a confiança para o usuário de que seus dados não serão usados ou acessadospor terceiros que não forma citados na Política de Privacidade.
+<br> Rastro: <a href="../../pre-rastreabilidade/argumentacao/#arg01-privacidade-do-usuario">Argumentação 1</a></p>
+<h3 id="transparencia">Transparência</h3>
+<p>O sistema deve ser transparente quanto as informações que são coletadas do usuário, esclarecendo quais são e como vão ser usadas.
+<br> Rastro: <a href="../../pre-rastreabilidade/argumentacao/#arg01-privacidade-do-usuario">Argumentação 1</a></p>
+<h3 id="suporte-a-falhas">Suporte a falhas</h3>
+<p>No caso de falhas, o aplicativo deve dar segurança ao usuário de que a falha vai ser corrigida e não haverá consequências negativas aos dados sensíveis do usuário.
+<br> Rastro: Não possui</p>
+<h2 id="eps04-desempenho">EPS04: Desempenho</h2>
+<p>Especificação da rapidez de resposta e redenrização que o aplicativo deve oferecer</p>
+<h3 id="acessos-simultaneos">Acessos simultâneos</h3>
+<p>A aplicação deve ter uma lógica de balanceamento de carga de requisições ao servidor, para ser capaz de atender acessos simultâneos de diferentes usuários, cada um em sua devida conta.
+<br> Rastro: Não possui</p>
+<h3 id="rapidez-de-resposta">Rapidez de resposta</h3>
+<p>As requisições devem ser respondidas em no máximo 08 segundos, principalmente nas funcionalidades mais utilizadas, para que a experiência do usuário não seja cansativa e para não deixá-lo impaciente.
+<br> Rastro: <a href="../../elicitacao-de-requisitos/questionario/">Questionário</a></p>
+<h3 id="armazenamento">Armazenamento</h3>
+<p>O aplicativo precisa de 31MB(<em>megabyte</em>) de armazenamento em sistemas Android e 55,6MB em sistemas iOS.
+<br> Rastro: <a href="https://play.google.com/store/apps/details?id=br.com.guiabolso&amp;hl=pt_BR">Guiabolso na Play Store</a> e <a href="https://itunes.apple.com/br/app/guiabolso-controle-financeiro/id891087489?mt=8">Guiabolso na Apple Store</a></p>
+<h3 id="localizacao">Localização</h3>
+<p>Para o aplicativo desempenhar cada vez melhor o oferecimento de dicas da aba Guia e para levantar estatísticas dos usuários, ele precisa de permissão de acesso à localização do dispositivo.
+<br> Rastro: <a href="../../pre-rastreabilidade/argumentacao/#arg01-privacidade-do-usuario">Argumentação 1</a></p>
+<h2 id="eps05-suportabilidade">EPS05: Suportabilidade</h2>
+<p>Este tópico descreve o quão portável deve ser o Guiabolso e em quais plataformas ele oferece suporte.</p>
+<h3 id="internet">Internet</h3>
+<p>O Guiabolso tem suporte apenas em dispositivos que podem ter acesso à internet.
+<br> Rastro: Não possui</p>
+<h3 id="dispositivos-apple">Dispositivos Apple</h3>
+<p>O aplicativo deve suportar dispositivos móveis com sistema iOS 9.0 ou posterior e ser compatível com iPhone, iPad e iPod touch.
+<br> Rastro: <a href="https://itunes.apple.com/br/app/guiabolso-controle-financeiro/id891087489?mt=8">Guiabolso na Apple Store</a></p>
+<h3 id="dispositivos-android">Dispositivos Android</h3>
+<p>O aplicativo deve suportar dispositivos móveis com sistemas Android 4.1 e versões superiores.
+<br> Rastro: <a href="https://play.google.com/store/apps/details?id=br.com.guiabolso&amp;hl=pt_BR">Guiabolso na Play Store</a></p>
+<h3 id="permanencia-de-dados">Permanência de dados</h3>
+<p>A aplicação deve suportar acesso por meio de navegadores web e diferentes plataformas mobiles, com a permanência de dados e de preferências de uso do mesmo usuário.
+<br> Rastro: Não possui</p>
+<h2 id="eps06-restricao-de-design">EPS06: Restrição de Design</h2>
+<p>Este tópico define todas as restrições de design voltadas para as plataformas em que o aplicativo atua.</p>
+<h3 id="suporte-a-idioma">Suporte a idioma</h3>
+<p>Por ser um aplicativo nacional, da suporte apenas a língua portuguesa, nativa do Brasil. Ainda que faça alterações no aparelho móvel não e possivel fazer alteração do idioma.
+<br> Rastro: Não possui</p>
+<h3 id="navegacao">Navegação</h3>
+<p>O aplicativo possui abas com as principais funcionalidades do sistema. Estas abas permanecem visíveis em todas as telas disponibilizadas pelo aplicativo. 
+<br> Rastro: Não possui</p>
+<h3 id="conteudo">Conteúdo</h3>
+<p>O aplicativo deve disponibilizar ao usuário sua principal funcionalidade assim que acessar o aplicativo, no caso, visualizar suas finanças.
+<br> Rastro: Não possui</p>
+<h3 id="cadastro">Cadastro</h3>
+<p>O aplicativo deve fornecer páginas para que o usuário possa se cadastrar ou fazer login, sendo esta funcionalidade, a primeira disponibilizada pelo aplicativo, obrigatóriamente.
+<br> Rastro: Não possui</p>
+<h3 id="suporte-ao-usuario">Suporte ao usuário</h3>
+<p>O aplicativo deve fornecer assistencia técnica ao usuário, afim de melhorar o funcionamento do sistema. Além, de fornecer apoio para que o usuário possa compreender como que funciona o aplicativo e seus benefícios.
+<br> Rastro: Não possui</p>
+<h2 id="eps07-requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line">EPS07: Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line</h2>
+<p>Este tópico define os sistemas referentes à ajuda online ao usuário disponibilizadas pelo aplicativo.</p>
+<h3 id="sessao-de-ajuda">Sessão de Ajuda</h3>
+<p>O aplicatovo possui uma sessão, na Aba de "Ajustes", chamada de "Dúvidas". Cada sessão possui um conjunto FAQ - Frequently Asked Questions -, ou seja, um conjunto de perguntas frequentes com suas soluções.
+<br> Rastro: <a href="../cenarios/#c11-solicitar-suporte">Cenário 1</a></p>
+<h2 id="eps08-componentes-comprados">EPS08: Componentes Comprados</h2>
+<h3 id="bibliotecas">Bibliotecas</h3>
+<p>O aplicativo se utilizou de diversas bibliotecas que auxiliaram na produção e desenvolvimento do aplicativo.
+<br> Rastro: Não possui</p>
+<h3 id="servidor">Servidor</h3>
+<p>O aplicativo necessita de ser hospedado em um servidor. A aquisição ou aluguel de um deve ser presente.
+<br> Rastro: Não possui</p>
+<h3 id="infra-estrutura-de-desenvolvimento">Infra-estrutura de desenvolvimento</h3>
+<p>Os desenvolvedores do aplicativo necessitam de máquinas para a implementação dos códigos e suas configurações.
+<br> Rastro: Não possui</p>
+<h2 id="eps09-padroes-aplicaveis">EPS09: Padrões aplicáveis</h2>
+<p>O Guiabolso está adequado as normas ISO/TC-211, ISO 9000, ISO 9001-3, ISO 12207 e ISO 12202.
+<br> Rastro: <a href="../backlog/">Backlog</a></p>
+<h2 id="eps10-interfaces">EPS10: Interfaces</h2>
+<p>Este tópico define as interfaces que o aplicativo possui.</p>
+<h3 id="interfaces-de-usuario">Interfaces de Usuário</h3>
+<p>O usuário utilizará as versões do aplicativo disponíveis nas lojas mobile para visualizar e utilizar sua interface.
+<br> Rastro: <a href="https://play.google.com/store/apps/details?id=br.com.guiabolso&amp;hl=pt_BR">Guiabolso na Play Store</a> e <a href="https://itunes.apple.com/br/app/guiabolso-controle-financeiro/id891087489?mt=8">Guiabolso na Apple Store</a></p>
+<h3 id="interface-de-hardware">Interface de Hardware</h3>
+<p>O hardware deve ser capaz de utilizar conexão com a internet para atender as necessidades de requisições de dados.
+<br> Rastro: Não possui</p>
+<h3 id="interface-de-software">Interface de Software</h3>
+<p>A interface do aplicativo é desenvolvida voltada para aplicativos Mobile: iOS e Android.
+<br> Rastro: Não possui</p>
+<h2 id="eps11-requisitos-de-licenciamento">EPS11: Requisitos de Licenciamento</h2>
+<h3 id="termos-de-uso">Termos de Uso</h3>
+<p>O aplicativo apresenta seus termos de uso para que o usuário concorde em utilizar o aplicativo e suas informações dentro dos limites apresentados.
+<br> Rastro: Não possui </p>
+<h2 id="observacoes-legais-de-direitos-autorais-etc">Observações Legais, de Direitos Autorais etc</h2>
+<p>Os usuários estão sujeitos às leis de direitos autorais. Estas leis são apresentadas em conjunto com os termos de uso.</p>
+<table>
+<thead>
+<tr>
+<th><strong>EPS</strong></th>
+<th><strong>Especificação Suplementar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Versão</strong></td>
+<td>Atual: 1.0 (29/04/19) <br> Anterior: -</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Especificação suplementar dos requisitos não funcionais</td>
+</tr>
+<tr>
+<td><strong>Autor</strong></td>
+<td><a href="https://github.com/silvasara">Sara Silva</a>, <a href="https://github.com/leossb36">Leonardo Barreiros</a> e <a href="https://github.com/rafaelmakaha">Rafael Makaha</a></td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../lexicos/" title="Léxicos" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Léxicos
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../casos_de_uso/" title="Casos de uso" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Casos de uso
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019, <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/">Requisitos 2019.1</a>.
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/fga-disciplinas/2019.1-Guia-Bolso" class="md-footer-social__link fa fa-github"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.9e1f3b71.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+        <script src="../../javascripts/jquery.min.js"></script>
+      
+        <script src="../../javascripts/extra.js"></script>
+      
+        <script src="../../javascripts/datatables.js"></script>
+      
+    
+    
+      
+    
+  </body>
+</html>
