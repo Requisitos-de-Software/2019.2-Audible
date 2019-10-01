@@ -347,18 +347,19 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |---|---|
 |**Versão**|1.0|
 |**Autor**| Marco Antônio|
-|**Metas**|Usar o aplicativo Audible como usuário visitante|
-|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Metas**|Ouvir amostra de audiolivro|
+|**Contexto**|**Local:**<br>>Página de qualquer audiolivro <br> **Pré-Condição:**<br>> Usuário querer ouvir 5 minutos do audiolivro sem comprar o mesmo <br> **Pós-Condição:**<br>> O usuário ouve a amostra do audiolivro <br>|
 |**Atores**|Usuário|
 |**Recursos**|Internet, aplicativo |
-|**Restrições**| Usuário já estar logado |
-|**Exceções**|Internet cair <br> App dar crash |
-|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+|**Restrições**| - |
+|**Exceções**|Internet cair <br> App dar crash <br> Aparelho estar sem som|
+|**Episódios**|Usuário abre o aplicativo <br> Entra em algum audiolivro <br> Clica em "sample now" <br> Usuário começa a ouvir a amostra do audiolivro|
 
 <br>
 <br>
 <br>
 
+<!--
 |C22|Pausar amostra|
 |---|---|
 |**Versão**|1.0|
@@ -374,18 +375,19 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 <br>
 <br>
 <br>
+-->
 
 |C23|Adicionar na lista de desejos|
 |---|---|
 |**Versão**|1.0|
 |**Autor**| Marco Antônio|
-|**Metas**|Usar o aplicativo Audible como usuário visitante|
-|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Metas**|Adicionar audiolivro na lista de desejos|
+|**Contexto**|**Local:**<br>>Página de qualquer audiolivro <br> **Pré-Condição:**<br>> Usuário estar interessado em comprar o audiolivro <br> **Pós-Condição:**<br>> O usuário adiciona o audiolivro na lista de desejo <br>|
 |**Atores**|Usuário|
 |**Recursos**|Internet, aplicativo |
-|**Restrições**| Usuário já estar logado |
+|**Restrições**| O audiolivro ja estar na lista de desejo |
 |**Exceções**|Internet cair <br> App dar crash |
-|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+|**Episódios**|Usuário abre o aplicativo <br> Entra em algum audiolivro <br> Clica em "add to wish list" <br>O audiolivro é adiciona na lista de desejo do usuário|
 
 <br>
 <br>
@@ -395,13 +397,13 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |---|---|
 |**Versão**|1.0|
 |**Autor**| Marco Antônio|
-|**Metas**|Usar o aplicativo Audible como usuário visitante|
-|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Metas**|Ler sumário do livro|
+|**Contexto**|**Local:**<br>>Página de qualquer audiolivro <br> **Pré-Condição:**<br>> Usuário estar interessado em ler o sumário do livro <br> **Pós-Condição:**<br>> O usuário tem acesso ao sumário do livro <br>|
 |**Atores**|Usuário|
 |**Recursos**|Internet, aplicativo |
-|**Restrições**| Usuário já estar logado |
-|**Exceções**|Internet cair <br> App dar crash |
-|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+|**Restrições**| - |
+|**Exceções**|Internet cair <br> App dar crash <br> O livro não possuir sumário cadastrado |
+|**Episódios**|Usuário abre o aplicativo <br> Entra em algum audiolivro <br> Clica em "summary" <br> O usuário tem acesso ao sumário do livro|
 
 <br>
 <br>
@@ -411,13 +413,13 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |---|---|
 |**Versão**|1.0|
 |**Autor**| Marco Antônio|
-|**Metas**|Usar o aplicativo Audible como usuário visitante|
-|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Metas**|Ler sumário do livro|
+|**Contexto**|**Local:**<br>>Página de qualquer audiolivro <br> **Pré-Condição:**<br>> Usuário estar interessado em ler reviews do audiolivro <br> **Pós-Condição:**<br>> O usuário tem acesso aos reviews do livro <br>|
 |**Atores**|Usuário|
 |**Recursos**|Internet, aplicativo |
-|**Restrições**| Usuário já estar logado |
-|**Exceções**|Internet cair <br> App dar crash |
-|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+|**Restrições**|-|
+|**Exceções**|Internet cair <br> App dar crash <br>  O livro não possuir review|
+|**Episódios**|Usuário abre o aplicativo <br> Entra em algum audiolivro <br> Clica em "reviews" <br> O usuário tem acesso aos reviews do livro|
 
 <br>
 <br>
@@ -427,13 +429,13 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |---|---|
 |**Versão**|1.0|
 |**Autor**| Marco Antônio|
-|**Metas**|Usar o aplicativo Audible como usuário visitante|
-|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Metas**|Adiantar 30 segundos no audio que está sendo escutado|
+|**Contexto**|**Local:**<br>>Player de audio do Audible<br> **Pré-Condição:**<br>>o usuário estar executando algum audiolivro <br> **Pós-Condição:**<br>> O usuário avança 30 segundos no audio <br>|
 |**Atores**|Usuário|
 |**Recursos**|Internet, aplicativo |
-|**Restrições**| Usuário já estar logado |
+|**Restrições**| - |
 |**Exceções**|Internet cair <br> App dar crash |
-|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+|**Episódios**|Usuário abre o aplicativo <br> Começa a escutar algum audiolivro <br> Entra no player <br> Clica no icone de avançar 30 segundos <br> O audio avança 30 segundos|
 
 <br>
 <br>
@@ -443,13 +445,13 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |---|---|
 |**Versão**|1.0|
 |**Autor**| Marco Antônio|
-|**Metas**|Usar o aplicativo Audible como usuário visitante|
-|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Metas**|Voltar 30 segundos no audio que está sendo escutado|
+|**Contexto**|**Local:**<br>>Player de audio do Audible<br> **Pré-Condição:**<br>>o usuário estar executando algum audiolivro <br> **Pós-Condição:**<br>> O usuário volta 30 segundos no audio <br>|
 |**Atores**|Usuário|
 |**Recursos**|Internet, aplicativo |
-|**Restrições**| Usuário já estar logado |
+|**Restrições**| - |
 |**Exceções**|Internet cair <br> App dar crash |
-|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+|**Episódios**|Usuário abre o aplicativo <br> Começa a escutar algum audiolivro <br> Entra no player <br> Clica no icone de voltar 30 segundos <br> O audio volta 30 segundos|
 
 <br>
 <br>
@@ -459,13 +461,13 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |---|---|
 |**Versão**|1.0|
 |**Autor**| Marco Antônio|
-|**Metas**|Usar o aplicativo Audible como usuário visitante|
-|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Metas**|Mudar a velocidade da reprodução do audio|
+|**Contexto**|**Local:**<br>>Player de audio do Audible<br> **Pré-Condição:**<br>>o usuário estar executando algum audiolivro <br> **Pós-Condição:**<br>> O usuário altera a velocidade de reprodução do audio <br>|
 |**Atores**|Usuário|
 |**Recursos**|Internet, aplicativo |
-|**Restrições**| Usuário já estar logado |
+|**Restrições**| - |
 |**Exceções**|Internet cair <br> App dar crash |
-|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+|**Episódios**|Usuário abre o aplicativo <br> Começa a escutar algum audiolivro <br> Entra no player <br> Clica no icone "speed" <br> Usuário seleciona a velocidade que deseja reproduzir o audio <br> A velocidade do audio é alterada|
 
 <br>
 <br>
@@ -475,13 +477,13 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |---|---|
 |**Versão**|1.0|
 |**Autor**| Marco Antônio|
-|**Metas**|Usar o aplicativo Audible como usuário visitante|
-|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Metas**|Definir timer para que o audio pare de ser executado|
+|**Contexto**|**Local:**<br>>Player de audio do Audible<br> **Pré-Condição:**<br>>o usuário estar executando algum audiolivro <br> **Pós-Condição:**<br>> O usuário define time para que o audio pare <br>|
 |**Atores**|Usuário|
 |**Recursos**|Internet, aplicativo |
-|**Restrições**| Usuário já estar logado |
+|**Restrições**| O audio acabar antes do tempo |
 |**Exceções**|Internet cair <br> App dar crash |
-|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+|**Episódios**|Usuário abre o aplicativo <br> Começa a escutar algum audiolivro <br> Entra no player <br> Clica no icone "sleep timer" <br> Usuário seleciona o tempo que deseja reproduzir o audio <br> O tempo é definido e começa uma contagem regressiva na tela|
 
 <br>
 <br>
@@ -491,14 +493,14 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |---|---|
 |**Versão**|1.0|
 |**Autor**| Marco Antônio|
-|**Metas**|Usar o aplicativo Audible como usuário visitante|
-|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Metas**|Alterar volume de reprodução|
+|**Contexto**|**Local:**<br>>Player de audio do Audible<br> **Pré-Condição:**<br>>o usuário estar executando algum audiolivro <br> **Pós-Condição:**<br>> O usuário altera o volume do audio <br>|
 |**Atores**|Usuário|
 |**Recursos**|Internet, aplicativo |
-|**Restrições**| Usuário já estar logado |
+|**Restrições**| - |
 |**Exceções**|Internet cair <br> App dar crash |
-|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
-
+|**Episódios**|Usuário abre o aplicativo <br> Começa a escutar algum audiolivro <br> Entra no player <br> Clica no icone de "som" <br> Usuário seleciona o volume que deseja reproduzir o audio <br> O volume do audio é alterado|
+<!--
 <br>
 <br>
 <br>
@@ -658,3 +660,4 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |**Restrições**| Usuário já estar logado |
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+-->
