@@ -67,3 +67,18 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |**Exceções**|Dublagem não ficar qualidade boa <br> |
 |**Episódios**|A equipe do app Contrata dubladores para adicionar novos livros utilizando recursos da amazon.|
 
+<br>
+<br>
+<br>
+
+|C4|Cadastro de Usuário|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Cadastrar novo usuário no Audible|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>não ter cadastro <br> **Pós-Condição:**<br>>usuário cadastrado <br>|
+|**Atores**|Usuário não cadastrado |
+|**Recursos**|Internet, aplicativo, conta de e-mail|
+|**Restrições**|O usúario ter conta na Amazon|
+|**Exceções**|Internet cair <br> App dar crash <br> Senha inválida <br> E-mail inválido <br> Amazon fora do ar <br> Conta da Amazon inexistente|
+|**Episódios**|Usuário não cadastrado abre o aplicativo <br> Usuário seleciona fazer o cadastro <br> Se o usuário já tiver conta na Amazon, então seleciona entrar <br> Senão usuário preenche e-mail, senha e confirmação da senha <br> Usuário confirma cadastro no e-mail e é redirecionado para a página principal do Audible|
