@@ -130,3 +130,531 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |**Restrições**| Usuário já estar logado |
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C8|Ver audiolivros salvos na nuvem|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Visualizar audiolivros comprados que estão salvos na nuvem|
+|**Contexto**|**Local:**<br>>Aba "my library"<br> **Pré-Condição:**<br>>o usuário estar logado e possuir livros na biblioteca<br> **Pós-Condição:**<br>> Exibição dos audiolivros salvos na nuvem <br>|
+|**Atores**|Usuário logado com audiolivros na conta|
+|**Recursos**|Internet, aplicativo, audiolivros comprados|
+|**Restrições**|-|
+|**Exceções**|Internet cair <br> App dar crash <br> Não possuir audiolivro na conta|
+|**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica em "cloud" <br> Usuário visualiza audiolivros salvos na nuvem|
+
+<br>
+<br>
+<br>
+
+|C9|Ver audiolivros salvos no aparelho|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Aba "my library"<br> **Pré-Condição:**<br>>o usuário estar logado e possuir livros na biblioteca <br> **Pós-Condição:**<br>> Exibição dos audiolivros salvos no aparelho <br>|
+|**Atores**|Usuário logado com audiolivros na conta|
+|**Recursos**|Internet, aplicativo, audiolivros comprados e salvos no aparelho|
+|**Restrições**|-|
+|**Exceções**|Internet cair <br> App dar crash <br> Não possuir audiolivro na conta <br> Não ter baixado nenhum audiolivro|
+|**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica em "device" <br> Usuário visualiza audiolivros salvos no aparelho|
+
+<br>
+<br>
+<br>
+
+|C10|Ordenar por recentes|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Ordenar audiolivros da biblioteca por mais recentes|
+|**Contexto**|**Local:**<br>>Aba "my library"<br> **Pré-Condição:**<br>>o usuário estar logado e possuir livros na biblioteca <br> **Pós-Condição:**<br>> Exibição dos audiolivros ordenados por recentes <br>|
+|**Atores**|Usuário logado com audiolivros na conta|
+|**Recursos**|Internet, aplicativo, audiolivros comprados|
+|**Restrições**|Ja estar sendo ordenado por recentes|
+|**Exceções**|Internet cair <br> App dar crash <br> Não possuir audiolivro na conta|
+|**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "sort by" <br> Usuário seleciona "recent" <br> Usuário visualiza audiolivros ordenados por recentes|
+
+<br>
+<br>
+<br>
+
+|C11|Ordenar por tamanho do audiolivro|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Ordenar audiolivros da biblioteca por tamanho do audiolivro|
+|**Contexto**|**Local:**<br>>Aba "my library"<br> **Pré-Condição:**<br>>o usuário estar logado e possuir livros na biblioteca <br> **Pós-Condição:**<br>> Exibição dos audiolivros ordenados por tamanho do audiolivro <br>|
+|**Atores**|Usuário logado com audiolivros na conta|
+|**Recursos**|Internet, aplicativo, audiolivros comprados|
+|**Restrições**| Ja estar sendo ordenado por tamanho|
+|**Exceções**|Internet cair <br> App dar crash <br> Não possuir audiolivro na conta|
+|**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "sort by" <br> Usuário seleciona "length" <br> Usuário visualiza audiolivros ordenados por tamanho|
+
+<br>
+<br>
+<br>
+
+|C12|Ordenar por título|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Ordenar audiolivros da biblioteca por título|
+|**Contexto**|**Local:**<br>>Aba "my library"<br> **Pré-Condição:**<br>>o usuário estar logado e possuir livros na biblioteca <br> **Pós-Condição:**<br>> Exibição dos audiolivros ordenados por título <br>|
+|**Atores**|Usuário logado com audiolivros na conta|
+|**Recursos**|Internet, aplicativo, audiolivros comprados|
+|**Restrições**|Ja estar sendo ordenado por título|
+|**Exceções**|Internet cair <br> App dar crash <br> Não possuir audiolivro na conta|
+|**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "sort by" <br> Usuário seleciona "title" <br> Usuário visualiza audiolivros ordenados por título|
+
+<br>
+<br>
+<br>
+
+|C13|Ordenar por autor|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Ordenar audiolivros da biblioteca por autor|
+|**Contexto**|**Local:**<br>>Aba "my library"<br> **Pré-Condição:**<br>>o usuário estar logado e possuir livros na biblioteca <br> **Pós-Condição:**<br>> Exibição dos audiolivros ordenados por autor <br>|
+|**Atores**|Usuário logado com audiolivros na conta|
+|**Recursos**|Internet, aplicativo, audiolivros comprados|
+|**Restrições**|Ja estar sendo ordenado por autor|
+|**Exceções**|Internet cair <br> App dar crash <br> Não possuir audiolivro na conta|
+|**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "sort by" <br> Usuário seleciona "author" <br> Usuário visualiza audiolivros ordenados por autor|
+
+<br>
+<br>
+<br>
+
+|C14|Filtrar por todos os títulos|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Filtrar audiolivros da biblioteca|
+|**Contexto**|**Local:**<br>>Aba "my library"<br> **Pré-Condição:**<br>>o usuário estar logado e possuir livros na biblioteca <br> **Pós-Condição:**<br>> Exibição de todos os audiolivros que o usuário possui na biblioteca <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo|
+|**Restrições**| Ja estar sendo filtrado por todos os títulos |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "filter by" <br> Usuário seleciona "all titles" <br> Usuário visualiza todos audiolivros que o usuário possui na biblioteca|
+
+<br>
+<br>
+<br>
+
+|C15|Filtrar por trechos|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Filtrar por trechos de audiolivros|
+|**Contexto**|**Local:**<br>>Aba "my library"<br> **Pré-Condição:**<br>>o usuário estar logado <br> **Pós-Condição:**<br>> Exibição de trechos de audiolivros que estão disponiveis para download no Audible<br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Ja estar sendo filtrado por trechos |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "filter by" <br> Usuário seleciona "excerpts" <br> Usuário visualiza trechos de audiolivros que estão disponiveis para download no Audible|
+
+<br>
+<br>
+<br>
+
+|C16|Filtrar por não terminados|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Filtrar audiolivros da biblioteca por não terminados|
+|**Contexto**|**Local:**<br>>Aba "my library"<br> **Pré-Condição:**<br>>o usuário estar logado e possuir livros na biblioteca<br> **Pós-Condição:**<br>> Exibição de todos os audiolivros não terminados que o usuário possui na biblioteca<br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Ja estar sendo filtrado por não terminados |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "filter by" <br> Usuário seleciona "unfinished" <br> Usuário visualiza todos os audiolivros não terminados que o usuário possui na biblioteca|
+
+<br>
+<br>
+<br>
+
+|C17|Deletar audiolivro|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Deletar audiolivro baixado|
+|**Contexto**|**Local:**<br>>Aba "my library"<br> **Pré-Condição:**<br>>o usuário estar logado e possuir livros baixados na biblioteca<br> **Pós-Condição:**<br>> O deleta o audiolivro da sua biblioteca <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo, audiolivro na biblioteca |
+|**Restrições**|- |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "delete" <br> Usuário seleciona o audiolivro que vai ser deletado <br> Usuário seleciona "delete from device" <br> O audiolivro é deletado da biblioteca|
+
+<br>
+<br>
+<br>
+
+|C18|Descobrir novos livros em destaque|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Descobrir os audiolivros que são destaque na loja|
+|**Contexto**|**Local:**<br>>Aba "discover"<br> **Pré-Condição:**<br>>o usuário querer ver os livros que estão em destaque <br> **Pós-Condição:**<br>> O usuário vê todos os titulos em destaque na loja, por categorias<br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Ja estar sendo buscado por destaques |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "discover" <br> Seleciona "featured" <br> O usuário vê todos os titulos em destaque na loja, por categorias|
+
+<br>
+<br>
+<br>
+
+|C19|Descobrir novos livros por categorias|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Descobrir os audiolivros pelas suas categorias|
+|**Contexto**|**Local:**<br>>Aba "discover"<br> **Pré-Condição:**<br>>o usuário querer ver os livros pelas suas categorias <br> **Pós-Condição:**<br>> O usuário vê todas as categorias existentes<br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Ja estar sendo buscado por categorias |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "discover" <br> Seleciona "categories" <br> O usuário vê todas as categorias existentes|
+
+<br>
+<br>
+<br>
+
+|C20|Descobrir livros originais audible|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Descobrir audiolivros originais do Audible|
+|**Contexto**|**Local:**<br>>Aba "originals"<br> **Pré-Condição:**<br>>o usuário querer ver os audiolivros originais do Audible <br> **Pós-Condição:**<br>> O usuário vê os audiolivros originais do Audible<br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**|-|
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "originals" <br> O usuário vê todos audiolivros originais do Audible|
+
+<br>
+<br>
+<br>
+
+|C21|Ouvir amostra|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C22|Pausar amostra|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C23|Adicionar na lista de desejos|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C24|Ler sumário|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C25|Ler reviews|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C26|Adiantar 30 segundos|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C27|Voltar 30 segundos|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C28|Mudar velocidade de reprodução|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C29|Escolher timer|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C30|Escolher volume|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C31|Emparelhar|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C32|Escolher modo direção|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C33|Escolher tema escuro|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C34|Escolher modo botão livre|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C35|Remover da lista de desejos|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C36|Visualizar tempo de escuta|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C37|Visualizar troféus conquistados|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C38|Visualizar nível de leitor|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C39|Visualizar títulos na biblioteca|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
+
+<br>
+<br>
+<br>
+
+|C40|Atualizar biblioteca|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Usar o aplicativo Audible como usuário visitante|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>o usuário querer experimentar o aplicativo sem logar <br> **Pós-Condição:**<br>> O usuário experimenta o aplicativo <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo |
+|**Restrições**| Usuário já estar logado |
+|**Exceções**|Internet cair <br> App dar crash |
+|**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
