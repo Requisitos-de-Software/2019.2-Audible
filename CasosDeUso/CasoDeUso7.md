@@ -1,14 +1,14 @@
-## 7- Uso de caso: Assinar o audible
+## 7- Caso de Uso: Assinar o Audible
 
 |Sigla|Definição|
 |:---:|---|
 |Versão|1.0|
 |Autor|André Goretti|
-|Descrição|Assinar o audible para ter todos os livros disponiveis|
+|Descrição|Assinar o Audible para ter todos os livros disponíveis|
 |Ator|Usuários
-|Pré-Condições|Ter conta da amazon|
+|Pré-Condições|Ter conta na Amazon|
 |Fluxo principal|Entrar no site e assinar|
 |Fluxo alternativo|Entrar nos dados de perfil e adicionar a assinatura|
 |Fluxo de exceções|Não conseguir pagar pela assinatura|
-|Pós condições|ter acesso a todos os livros|
+|Pós condições|Ter acesso a alguns audiolivros disponibilizados pela Audible mensalmente|
 |Rastreabilidade| RF05 do Questionário|

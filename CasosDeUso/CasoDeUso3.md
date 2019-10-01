@@ -11,4 +11,4 @@
 | Fluxo alternativo      | Não há  |
 |   Fluxo de exceções    |    **FE4 - Sem conexão com a internet**</br> - O aplicativo exibe a mensagem "Sem Conexão com a Internet"</br> **FE5 - Sem espaço na memória do dispositivo**</br>- A aplicativo informa ao usuário para que libere espaço na memória para efetuar o *download*      |
 |     Pós condições      |    O usuário pode usufruir do audiolivro comprado a qualquer momento      |
-|    Rastreabilidade     |                 Baseado no Requisito Funcional - 03                   |
+|    Rastreabilidade     |                 Baseado no Requisito Funcional 03 - O usuário pode baixar os livros localmente para escutar mesmo off-line                   |
