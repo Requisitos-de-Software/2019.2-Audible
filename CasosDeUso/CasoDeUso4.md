@@ -1,6 +1,4 @@
-## 1 Uso de Caso: Barra de pesquisa
-
-![](./CasosDeUso/UCS4.png)
+## 4 - Uso de Caso: Barra de pesquisa
 
 |         Sigla          |                                           Definição                                            |
 | :--------------------: | :--------------------------------------------------------------------------------------------: |
