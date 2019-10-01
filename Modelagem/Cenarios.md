@@ -82,3 +82,19 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |**Restrições**|O usúario ter conta na Amazon|
 |**Exceções**|Internet cair <br> App dar crash <br> Senha inválida <br> E-mail inválido <br> Amazon fora do ar <br> Conta da Amazon inexistente|
 |**Episódios**|Usuário não cadastrado abre o aplicativo <br> Usuário seleciona fazer o cadastro <br> Se o usuário já tiver conta na Amazon, então seleciona entrar <br> Senão usuário preenche e-mail, senha e confirmação da senha <br> Usuário confirma cadastro no e-mail e é redirecionado para a página principal do Audible|
+
+<br>
+<br>
+<br>
+
+|C5|Fazer login|
+|---|---|
+|**Versão**|1.0|
+|**Autor**| Marco Antônio|
+|**Metas**|Utilizar todas as ferramentas exclusivas para usuários logados|
+|**Contexto**|**Local:**<br>>Página inicial do app Audible (quando não logado)<br> **Pré-Condição:**<br>>Estar cadastrado, inserir o e-mail e a senha corretos <br> **Pós-Condição:**<br>>O usuário está logado <br>|
+|**Atores**|Usuário cadastrado |
+|**Recursos**|E-mail válido |
+|**Restrições**|-|
+|**Exceções**|Esquecer a senha <br> Esquecer o e-mail <br> Não ter cadastro |
+|**Episódios**|Inicializar o Audible <br> Clicar em "get started" ou "sign in" <br> Inserir email e senha <br> Clicar em "continue"|
