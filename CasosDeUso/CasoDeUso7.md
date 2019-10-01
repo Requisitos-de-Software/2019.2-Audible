@@ -1,7 +1,7 @@
 ## 7- Uso de caso: Assinar o audible
 
-|sigla|Definição|
-|---|---|
+|Sigla|Definição|
+|:---:|---|
 |Versão|1.0|
 |Autor|André Goretti|
 |Descrição|Assinar o audible para ter todos os livros disponiveis|
