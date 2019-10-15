@@ -1,0 +1,12 @@
+site_name: Audible
+extra_css: [extra.css]
+pages: 
+  - HOME: index.md
+theme: 
+    name: material
+    language: 'pt'
+    logo:
+      icon: 'volume_up'
+    palette:
+      primary: 'orange'
+      accent: 'orange'
