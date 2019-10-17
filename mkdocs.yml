@@ -2,6 +2,24 @@ site_name: Audible
 extra_css: [extra.css]
 pages: 
   - HOME: index.md
+  - PLANEJAMENTO: planejamento.md
+  - PRÉ-RASTREABILIDADE:
+    - Argumentação: argumentacao.md
+    - RichPicture: rich_picture.md
+  - ELICITAÇÃO DE REQUISITOS:
+    - Priorização: priorizacao.md
+    - Introspecção: instrospeccao.md
+    - Brainstorm: brainstorm.md
+    - Questionario: questionario.md
+  - MODELAGEM:
+    - Cenários: cenarios.md
+    - Léxicos: lexicos.md
+    - Especificação Suplementar: suplementar.md
+    - Istar: istar.md    
+  - PONTOS DE CONTROLE:
+    - Ponto de controle 1: pc1.md
+    - Ponto de controle 2: pc2.md
+    - Ponto de controle 3: pc3.md
 theme: 
     name: material
     language: 'pt'
@@ -10,3 +28,7 @@ theme:
     palette:
       primary: 'orange'
       accent: 'orange'
+      
+repo_name: 'Audible'
+repo_url: 'https://github.com/Requisitos-de-Software/2019.2-Audible'
+edit_uri: ''

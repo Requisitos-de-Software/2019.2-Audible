@@ -1,17 +1,15 @@
-![Screenshot](img/pinterest.png)
+![Screenshot](img/audible_logo.png)
 
-Repositório da disciplina de Requisitos de Software 2018.2 realizado sobre o Pinterest. Este repositório reúne artefatos de requisitos de software levantados a partir das aplicações web e mobile do Pinterest.
+Repositório da disciplina de Requisitos de Software 2019.2 realizado sobre a aplicação Audible. Este repositório reúne artefatos de requisitos de software levantados a partir das aplicações web e mobile do Audible.
 
 
 ## Equipe
 
-| Nome | Email | GitHub|
-|--|--|--|
-| Alexandre Miguel | aleronupe@gmail.com | [@aleronupe](https://github.com/aleronupe) |
-| Daniel Maike | danmke@hotmail.com | [@DanMke](https://github.com/DanMke) |
-| Gabriela Medeiros | gabriela.medeiros2010@hotmail.com.br | [@gabiMSilva](https://github.com/gabiMSilva) |
-| Geovana Ramos | geovannna.1998@gmail.com | [@GeovanaRamos](https://github.com/GeovanaRamos) |
-| Guilherme Guy | guilhermeguy349@gmail.com| [@guilherme1guy](https://github.com/guilherme1guy) |
-| Helena Goulart| helenabretasg@gmail.com | [@helenagoulart](https://github.com/helenagoulart)|
-| Joberth Rogers | joberth.rogers18@gmail.com | [@joberthrogers18](https://github.com/joberthrogers18) |
-| Letícia Meneses| lmbs.geo@gmail.com | [@mbslet](https://github.com/mbslet)|
+| Foto | Nome | Email | GitHub|
+|--|--|--|--|
+| ![andre](img/andre.png) | André Goretti | andremotta96@gmail.com | [@Agoretti](https://github.com/Agoretti) |
+| ![ian](img/ian.png) | Ian Rocha | ianrocha.df@gmail.com | [@IanPSRocha](https://github.com/IanPSRocha) |
+| ![joao](img/joao.png) | João Gabriel Antunes | jg.antunes.medeiros@gmail.com | [@flyerjohn](https://github.com/flyerjohn) |
+| ![marco](img/marco.png) | Marco Antônio Costa | markinlimac@gmail.com | [@markinlimac](https://github.com/markinlimac) |
+| ![murilo](img/murilo.png) | Murilo Dantas | messhman.dmc@gmail.com | [@murilo-dan](https://github.com/murilo-dan) |
+| ![thallys](img/thallys.png) | Thallys Braz | thallysbraz3@gmail.com | [@thallysbraz](https://github.com/thallysbraz) |
