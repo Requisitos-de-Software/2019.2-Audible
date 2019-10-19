@@ -11,22 +11,22 @@ O iStar ou i* é um documento com o objetivo de identificar e representar as dep
 
 ## Modelos
 ### Assinatura
-![](https://github.com/Requisitos-de-Software/2019.2-Audible/blob/master/Modelagem/iStarImages/iStar-Assinatura.png?raw=true)
+![](img/iStar-Assinatura.png)
 
 ### Busca
-![](https://github.com/Requisitos-de-Software/2019.2-Audible/blob/master/Modelagem/iStarImages/iStar-Busca.png?raw=true)
+![](img/iStar-Busca.png)
 
 ### Dublagem
-![](https://github.com/Requisitos-de-Software/2019.2-Audible/blob/master/Modelagem/iStarImages/iStar-Dublagem.png?raw=true)
+![](img/iStar-Dublagem.png)
 
 ### Lista de Desejos
-![](https://github.com/Requisitos-de-Software/2019.2-Audible/blob/master/Modelagem/iStarImages/iStar-ListaDeDesejos.png?raw=true)
+![](img/iStar-ListaDeDesejos.png)
 
 ### Avaliação
-![](https://github.com/Requisitos-de-Software/2019.2-Audible/blob/master/Modelagem/iStarImages/iStar-Avaliacao.png?raw=true)
+![](img/iStar-Avaliacao.png)
 
 ### Cadastro
-![](https://github.com/Requisitos-de-Software/2019.2-Audible/blob/master/Modelagem/iStarImages/iStar-Cadastro.png?raw=true)
+![](img/iStar-Cadastro.png)
 
 ### Login
-![](https://github.com/Requisitos-de-Software/2019.2-Audible/blob/master/Modelagem/iStarImages/iStar-Login.png?raw=true)
+![](img/iStar-Login.png)

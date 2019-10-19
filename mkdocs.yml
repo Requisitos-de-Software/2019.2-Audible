@@ -8,7 +8,7 @@ pages:
     - RichPicture: rich_picture.md
   - ELICITAÇÃO DE REQUISITOS:
     - Priorização: priorizacao.md
-    - Introspecção: instrospeccao.md
+    - Introspecção: introspeccao.md
     - Brainstorm: brainstorm.md
     - Questionario: questionario.md
   - MODELAGEM:
