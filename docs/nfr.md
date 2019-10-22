@@ -22,7 +22,7 @@ Obs: Clique nas imagens para ampliar.</p>
 | **NFR00**           | **Geral**                                                |
 | ------------------- | -------------------------------------------------------- |
 | **Versão**          | Atual: 1.0                                               |
-| **Rastreabilidade** | [Especificação Suplementar](../Modelagem/Suplementar.md) |
+| **Rastreabilidade** | [Especificação Suplementar](suplementar.md) |
 
 ### NFR01 - Portabilidade
 
@@ -39,3 +39,28 @@ Obs: Clique nas imagens para ampliar.</p>
 ### Propagação - NFR02
 
 [![NFRUsabilidade](img/usabilidade_propagacao.png)](img/usabilidade_propagacao.png)
+
+
+### NFR03 - Suporte
+
+[![NFRSuporte](img/SuporteDesal.png)](img/SuporteDesal.png)
+
+### Propagação - NFR03
+
+[![NFRSuporteU](img/Suporte.png)](img/Suporte.png)
+
+### NFR04 - Confiabilidade
+
+[![NFRConfiabilidade](img/ConfiabilidadeDesal.png)](img/ConfiabilidadeDesal.png)
+
+### Propagação - NFR04
+
+[![NFRConfiabilidadeU](img/Confiabilidade.png)](img/Confiabilidade.png)
+
+### NFR05 - Desempenho
+
+[![NFRDesempenho](img/DesempenhoDesal.png)](img/DesempenhoDesal.png)
+
+### Propagação - NFR05
+
+[![NFRDesempenhoU](img/Desempenho.png)](img/Desempenho.png)
