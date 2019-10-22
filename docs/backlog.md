@@ -54,9 +54,10 @@ Eu, como um usuário, desejo criar coleções próprias dos audiolivros adquirid
 Eu, como um usuário, desejo ter acesso ao progresso da leitura para que eu consiga continuar o livro de onde eu parei.
 ##### Critérios de aceitação
 
-* Deve poder acessar o livro mais de uma vez
-* Deve salvar aonde o leitor parou
+* Deve poder acessar o livro
+* Deve salvar no ponto onde o leitor parou
 * Deve retornar no mesmo ponto onde o leitor parou
+* Deve salvar no inicio quando acabar o livro
 
 #### US06: Obter sugestões de audiolivros com base em meus gostos
 Eu, como um usuário, desejo obter sugestões de audiolivros com base em meus gostos para que eu consiga conhecer mais livros e manter o meu hábito de leitura.
@@ -65,7 +66,7 @@ Eu, como um usuário, desejo obter sugestões de audiolivros com base em meus go
 * Deve existir uma página de recomendações
 * Deve ter salvo os livros lindos por aquele usuário
 * Deve ter uma categorização de livros
-* Deve mostrar livros associados ao já lidos
+* Deve mostrar livros associados com os já lidos
 
 #### US07: Salvar meus audiolivros localmente
 Eu, como um usuário, desejo salvar meus audiolivros localmente para que eu consiga ouvi-los mesmo offline.
@@ -83,7 +84,8 @@ Eu, como um usuário, desejo fazer upload da minha biblioteca pessoal para a nuv
 
 * Deve ter a opção de salvar livro na sua biblioteca
 * Deve ter acesso do aplicativo com a internet
-* Deve salvar a biblioteca na núvem
+* Deve salvar a biblioteca na nuvem
+* Deve ter pagina de livros salvos para a nuvem
 
 ### EP04: Assinatura
 #### US09: Realizar assinatura do serviço premium
@@ -92,6 +94,8 @@ Eu, como um usuário, desejo realizar assinatura do serviço premium para que eu
 
 * Deve ter acesso ao serviço da amazon de login
 * Deve conter um serviço de pagamento seguro
+* Deve diferenciar tipos de usuarios
+
 
 
 #### US10: Obter catálogo exclusivo de audiolivros para assinantes
@@ -102,6 +106,7 @@ Eu, como um usuário, desejo obter catálogo exclusivo de audiolivros para assin
 * Deve ter categorização de livros
 * Deve ter serviços separados de premium e free
 * Deve ter uma página de livros recomendados com sugestões
+* Deve existir uma pagina de catálogo
 
 ### EP05: Avaliação
 #### US011: Ter acesso a avaliações de audiolivros
@@ -111,7 +116,7 @@ Eu, como um usuário, desejo ter acesso a avaliações de audiolivros para que e
 * Deve existir avaliação individual de cada livro
 * Deve permitir que o usuário avalie livros
 * Deve salvar e gerar media de avaliações
-* Deve demonstrar bem claro nas informações do livro
+* Deve mostrar a avaliação nas informações do livro
 
 #### US012: Avaliar títulos
 Eu, como um usuário, desejo avaliar títulos para que eu consiga avaliar a minha experiência após a leitura do audiolivro.
@@ -120,6 +125,7 @@ Eu, como um usuário, desejo avaliar títulos para que eu consiga avaliar a minh
 * Deve existir avaliação individual de cada livro
 * Deve permitir que o usuário avalie livros após leitura
 * Deve salvar todas as avaliações
+* Deve saber se o usuario leu o livro
 
 
 #### US013: Avaliar avaliações
@@ -127,7 +133,8 @@ Eu, como um usuário, desejo avaliar avaliações para que eu consiga concordar 
 ##### Critérios de aceitação
 
 * Deve conter avaliações de uma avaliação como caracteristica
-* Deve avaliar se a avaliação eh coerente com o livro
+* Deve avaliar se a avaliação é coerente com o livro
+* Deve existir uma pagina sobre a avaliação da avaliação do livro
 
 
 ### EP06: Loja
@@ -157,20 +164,13 @@ Eu, como um usuário, desejo adicionar audiolivros à minha lista de desejos par
 * Deve conter uma aba com sua lista de desejos
 * Deve conseguir remover itens dessa lista
 
-#### US017: Adicionar audiolivros à minha lista de desejos
-Eu, como um usuário, desejo adicionar audiolivros à minha lista de desejos para que eu consiga guardar os títulos para comprá-los em um outro momento.
-##### Critérios de aceitação
-<ul>
-  <li></li>
-  <li></li>
-</ul>
 
 #### US018: Dar títulos de presente
 Eu, como um usuário, desejo dar títulos de presente para que eu consiga presentear os meus queridos.
 ##### Critérios de aceitação
 
 * Deve existir um botao com enviar como presente
-* Deveser possivel pesquisar por nome de usuários para mandar o presente
+* Deve ser possivel pesquisar por nome de usuários para mandar o presente
 * Deve ter como resgatar o presente
 * Deve ter como enviar uma mensagem junto ao presente
 * Deve ter como recusar o presente e mandar de volta para o dono
