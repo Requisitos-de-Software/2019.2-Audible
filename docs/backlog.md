@@ -37,7 +37,7 @@ Eu, como um usuário, desejo fazer uma busca na biblioteca de audiolivros para q
 ##### Critérios de aceitação
 
 * Deve possuir uma aba de pesquisa
-* Deve se mostrar resultados próxixmos
+* Deve se mostrar resultados próximos
 * Deve ter uma pagina de pesquisa avançada com maiores detalhes de livros
 * Deve direcionar para a pagina do livro escolhido
 
@@ -64,7 +64,7 @@ Eu, como um usuário, desejo obter sugestões de audiolivros com base em meus go
 ##### Critérios de aceitação
 
 * Deve existir uma página de recomendações
-* Deve ter salvo os livros lindos por aquele usuário
+* Deve ter salvo os livros lidos por aquele usuário
 * Deve ter uma categorização de livros
 * Deve mostrar livros associados com os já lidos
 
