@@ -7,7 +7,7 @@
 ## Introdução
 <p align="justify">&emsp;&emsp;"O NFR Framework é uma abordagem orientada a processos, onde os requisitos não funcionais são explicitamente representados como metas a serem obtidas" [CHUNG, 1995]. De forma simplificada, o NFR Framework busca decompor as metas destacadas anteriormente em seus componentes mais básicos, além de relacionar as dependências entre cada meta, favorecendo o entendimento de **como** o sistema faz algo, ao invés de **o que** ele faz. Normalmente, são apresentados em forma de gráfico.</p>
 
-Obs: clique nas imagens para ampliar.
+<p align="justify">&emsp;&emsp;Para fazer a análise das propagações, foi levado em consideração as tecnologias e ferramentas que já são utilizadas pelo aplicativo. Clique nas imagens para ampliar.</p>
 
 ## NFR's
 
@@ -18,3 +18,11 @@ Obs: clique nas imagens para ampliar.
 ### Propagação - NFR01
 
 [![NFRPortabilidade](img/portabilidade_propagacao.png)](img/portabilidade_propagacao.png)
+
+### NFR02 - Usabilidade
+
+[![NFRPortabilidade](img/usabilidade.png)](img/usabilidade.png)
+
+### Propagação - NFR02
+
+[![NFRPortabilidade](img/usabilidade_propagacao.png)](img/usabilidade_propagacao.png)
