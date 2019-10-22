@@ -12,6 +12,10 @@ Obs: Clique nas imagens para ampliar.</p>
 
 ## NFR's
 
+### NFR Geral
+
+[![NFRGeral](img/geral.png)](img/geral.png)
+
 ### NFR01 - Portabilidade
 
 [![NFRPortabilidade](img/portabilidade.png)](img/portabilidade.png)
@@ -22,8 +26,8 @@ Obs: Clique nas imagens para ampliar.</p>
 
 ### NFR02 - Usabilidade
 
-[![NFRPortabilidade](img/usabilidade.png)](img/usabilidade.png)
+[![NFRUsabilidade](img/usabilidade.png)](img/usabilidade.png)
 
 ### Propagação - NFR02
 
-[![NFRPortabilidade](img/usabilidade_propagacao.png)](img/usabilidade_propagacao.png)
+[![NFRUsabilidade](img/usabilidade_propagacao.png)](img/usabilidade_propagacao.png)
