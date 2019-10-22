@@ -2,26 +2,26 @@
 
 ## Introdução
 
-Uma especificação suplementar lista os requisitos não-funcionais do sistema, junto com as outras técnicas de modelagem e elicitação utilizadas é possível capturar o conjunto completo de requisitos do sistema. Entre estes requisitos estão incluídos: os atributos de qualidade do sistema a ser criado, abrangendo requisitos de usabilidade, desempenho e suportabilidade. Além de outros requisitos, como sistemas operacionais e ambientes, requisitos de compatibilidade, restrições de design e legislação associada.
+<p align="justify">&emsp;&emsp;Uma especificação suplementar lista os requisitos não-funcionais do sistema, junto com as outras técnicas de modelagem e elicitação utilizadas é possível capturar o conjunto completo de requisitos do sistema. Entre estes requisitos estão incluídos: os atributos de qualidade do sistema a ser criado, abrangendo requisitos de usabilidade, desempenho e suportabilidade. Além de outros requisitos, como sistemas operacionais e ambientes, requisitos de compatibilidade, restrições de design e legislação associada.</p>
 
 ### Finalidade
 
-Este documento tem por finalidade definir os requisitos não funcionais do aplicativo Audible que não foram explicitados nas outras técnicas de modelagem de requisitos. As Especificações Suplementares e o modelo de casos de uso,
-juntos, capturam um conjunto completo de requisitos do sistema.
+<p align="justify">&emsp;&emsp;Este documento tem por finalidade definir os requisitos não funcionais do aplicativo Audible que não foram explicitados nas outras técnicas de modelagem de requisitos. As Especificações Suplementares e o modelo de casos de uso,
+juntos, capturam um conjunto completo de requisitos do sistema.</p>
 
-### Escopo 
+### Escopo
 
-O Audible é um aplicativo de audio-livros na qual fornece acesso a uma variedade de livros para o usuário ter acesso. Possui ferramentas para novas dublagens e novos dubladores tanto quanto a adição de novos livros independentes.
+<p align="justify">&emsp;&emsp;O Audible é um aplicativo de audio-livros na qual fornece acesso a uma variedade de livros para o usuário ter acesso. Possui ferramentas para novas dublagens e novos dubladores tanto quanto a adição de novos livros independentes.</p>
 
 ### Refêrencias
 
-Audible. https://www.audible.com/
-Requisitos de Software Habitica. Especificação Suplementar. Disponível em: https://requisitos-habitica.netlify.com/EspecificacaoSuplementar
-Requisitos de Software GuiaBolso. Especificação Suplementar. Disponível em: https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/especificacao/
+Audible: <a href="https://www.audible.com/">Site da Audible</a></br>
+Requisitos de Software Habitica - Especificação Suplementar: <a href="https://requisitos-habitica.netlify.com/EspecificacaoSuplementar">Especificação Suplementar da Habitica</a></br>
+Requisitos de Software GuiaBolso - Especificação Suplementar: <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/especificacao/">Especificação Suplementar do GuiaBolso</a>
 
 ## Funcionalidades
 
-Todas as funcionalidades do aplicativo Audible podem ser encontradas em toda a documentação já elaborada pelo grupo.
+<p align="justify">&emsp;&emsp;Todas as funcionalidades do aplicativo Audible podem ser encontradas em toda a documentação já elaborada pelo grupo.</p>
 
 ## Usabilidade
 
@@ -40,7 +40,7 @@ Todas as funcionalidades do aplicativo Audible podem ser encontradas em toda a d
 * O aplicativo deve adicionar um tutorial de como ser usado para pessoas com mais dificuldade
 
 #### Conhecimentos prévios
-* A aplicação exigirá que o usuário saiba usar sistemas móveis Android ou IOS, ou navegadores web como Chrome, Mozilla, Opera.
+* <p align="justify">A aplicação exigirá que o usuário saiba usar sistemas móveis Android ou IOS, ou navegadores web como Chrome, Mozilla, Opera.</p>
 
 #### Feedbacks
 
@@ -51,32 +51,32 @@ Todas as funcionalidades do aplicativo Audible podem ser encontradas em toda a d
 ## Confiabilidade
 
 #### Disponibilidade
-* Os servidores do aplicativo devem mantê-lo disponível o maior tempo possível enquanto instalado no celular do usuário. Se houver indisponibildade por motivos de manutenção ou atualização, o usuário deve ser previamente avisado.
+* <p align="justify">Os servidores do aplicativo devem mantê-lo disponível o maior tempo possível enquanto instalado no celular do usuário. Se houver indisponibildade por motivos de manutenção ou atualização, o usuário deve ser previamente avisado.</p>
 
 #### Segurança mínima no armazenamento de dados
 
-* O armazenamento de dados dos usuário seguem os critérios mínimos da indústria para a segurança das informações de seus usuário.
+* <p align="justify">O armazenamento de dados dos usuário seguem os critérios mínimos da indústria para a segurança das informações de seus usuário.</p>
 
 #### Suporte a falhas
 
-* No caso de falhas, o aplicativo deve dar segurança ao usuário de que a falha vai ser corrigida e não haverá consequências negativas aos dados sensíveis do usuário. 
+* <p align="justify">No caso de falhas, o aplicativo deve dar segurança ao usuário de que a falha vai ser corrigida e não haverá consequências negativas aos dados sensíveis do usuário.</p>
 
 ## Desempenho
 
 #### Rapidez de Resposta
-O sistema tem que ser o mais rápido possível quando resgatar as informações tanto do usuário, quanto do livro
+<p align="justify">&emsp;&emsp;O sistema tem que ser o mais rápido possível quando resgatar as informações tanto do usuário, quanto do livro</p>
 
 #### Acessos simultâneos
 
-A aplicação deve ter uma lógica de balanceamento de carga de requisições ao servidor, para ser capaz de atender acessos simultâneos de diferentes usuários, cada um em sua devida conta. 
+<p align="justify">&emsp;&emsp;A aplicação deve ter uma lógica de balanceamento de carga de requisições ao servidor, para ser capaz de atender acessos simultâneos de diferentes usuários, cada um em sua devida conta.</p>
 
 #### Armazenamento
 
-O aplicativo precisa de 87,2MB(megabyte) de armazenamento em sistemas Android e 84,2MB em sistemas iOS. 
+<p align="justify">&emsp;&emsp;O aplicativo precisa de 87,2MB(megabyte) de armazenamento em sistemas Android e 84,2MB em sistemas iOS.</p>
 
 ## Suportabilidade
 
-O sistema do Audible está disponível para as principais plataformas Web e Mobile do mercado. Funcionando nos sistemas operacionais mobile Android, nas versões 5.0 ou superior e IOS, nas versões 9.3 ou superior.
+<p align="justify">&emsp;&emsp;O sistema do Audible está disponível para as principais plataformas Web e Mobile do mercado. Funcionando nos sistemas operacionais mobile Android, nas versões 5.0 ou superior e IOS, nas versões 9.3 ou superior.</p>
 
 ## Restrições de Design
 
@@ -90,27 +90,27 @@ O sistema do Audible está disponível para as principais plataformas Web e Mobi
 ## Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
 
 #### Sessão de Ajuda
-* O aplicatovo possui um botão chamado "Help". Ele possui um conjunto FAQ - Frequently Asked Questions -, ou seja, um conjunto de perguntas frequentes com suas soluções. 
+* <p align="justify">O aplicatovo possui um botão chamado "Help". Ele possui um conjunto FAQ - Frequently Asked Questions -, ou seja, um conjunto de perguntas frequentes com suas soluções.</p>
 
 ## Interfaces
 
 #### Interfaces de Usuário
 
-* O usuário utilizará as versões do aplicativo disponíveis nas lojas mobile ou navegadores web para visualizar e utilizar sua interface.
+* <p align="justify">O usuário utilizará as versões do aplicativo disponíveis nas lojas mobile ou navegadores web para visualizar e utilizar sua interface.</p>
 
 #### Interface de Hardware
 
-* O hardware deve ser capaz de utilizar conexão com a internet para atender as necessidades de requisições de dados. 
+* <p align="justify">O hardware deve ser capaz de utilizar conexão com a internet para atender as necessidades de requisições de dados.</p>
 
 #### Interface de Software
 
-* A interface do aplicativo é desenvolvida para atender as principais plataformas Web e Mobile do mercado.
+* <p align="justify">A interface do aplicativo é desenvolvida para atender as principais plataformas Web e Mobile do mercado.</p>
 
 ## Requisitos de Licenciamento
 
 #### Termos de Uso
 
-* O aplicativo apresenta seus termos de uso para que o usuário concorde em utilizar o aplicativo e suas informações dentro dos limites apresentados. 
+* <p align="justify">O aplicativo apresenta seus termos de uso para que o usuário concorde em utilizar o aplicativo e suas informações dentro dos limites apresentados.</p>
 
 ### Versionamento
 | Data | Versão | Descrição | Autor |
