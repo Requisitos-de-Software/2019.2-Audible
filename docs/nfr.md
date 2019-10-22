@@ -1,0 +1,20 @@
+# NFR Framework
+## Versionamento
+| Versão | Data | Modificação | Autor |
+| :---: | :---: | :---: | :---: |
+| 1.0 | 21/10/2019 | Adição dos NFR | [Ian Rocha](https://github.com/IanPSRocha), [Murilo Loiola](https://github.com/murilo-dan) e [Thallys Braz](https://github.com/thallysbraz) |
+
+## Introdução
+<p align="justify">&emsp;&emsp;"O NFR Framework é uma abordagem orientada a processos, onde os requisitos não funcionais são explicitamente representados como metas a serem obtidas" [CHUNG, 1995]. De forma simplificada, o NFR Framework busca decompor as metas destacadas anteriormente em seus componentes mais básicos, além de relacionar as dependências entre cada meta, favorecendo o entendimento de **como** o sistema faz algo, ao invés de **o que** ele faz. Normalmente, são apresentados em forma de gráfico.</p>
+
+Obs: clique nas imagens para ampliar.
+
+## NFR's
+
+### NFR01 - Portabilidade
+
+[![NFRPortabilidade](img/portabilidade.png)](img/portabilidade.png)
+
+### Propagação - NFR01
+
+[![NFRPortabilidade](img/portabilidade_propagacao.png)](img/portabilidade_propagacao.png)

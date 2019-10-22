@@ -1,17 +1,20 @@
 # Planejamento
+
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0 | 28/08 | Criação do planejamento de trabalho | Todos integrantes |
 
-## Introdução 
-O Planejamento é preparação, organização e estruturação do projeto. É essencial na tomada de decisões e execução dessas mesmas tarefas. Posteriormente, o planejamento também a confirmação se as decisões tomadas foram acertadas. Portanto, o planejamento serve para auxilar o grupo a se organizar nas tarefas que serão propostas durante o projeto, de acordo com as respectivas datas de entrega.
+## Introdução
+<p align="justify">&emsp;&emsp;O Planejamento é preparação, organização e estruturação do projeto. É essencial na tomada de decisões e execução dessas mesmas tarefas. Posteriormente, o planejamento também a confirmação se as decisões tomadas foram acertadas. Portanto, o planejamento serve para auxilar o grupo a se organizar nas tarefas que serão propostas durante o projeto, de acordo com as respectivas datas de entrega.</p>
 
 ## Cronograma
-A seguir, estão descritas todas as datas importantes de entrega da equipe moldado no plano de ensino da matéria. Para cada ponto de controle, estão definidas ao menos duas reuniões presenciais, à priori marcadas para acontecer no sábado, mas que podem ser remarcadas caso seja necessário. Além disso, reuniões à distância ocorrerão sob demanda, conforme for necessário para o desenvolvimento do projeto.<br>É importante salientar também que o cronograma está sujeito a mudanças, que, caso ocorra, será rastreada no versionamento da página.
+<p align="justify">&emsp;&emsp;A seguir, estão descritas todas as datas importantes de entrega da equipe moldado no plano de ensino da matéria. Para cada ponto de controle, estão definidas ao menos duas reuniões presenciais, à priori marcadas para acontecer no sábado, mas que podem ser remarcadas caso seja necessário. Além disso, reuniões à distância ocorrerão sob demanda, conforme for necessário para o desenvolvimento do projeto.<br>&emsp;&emsp;É importante salientar também que o cronograma está sujeito a mudanças, que, caso ocorra, será rastreada no versionamento da página.</p>
+
+<center>
 
 | Atividade | Data | O que deve ser apresentado |
-|--|--|--|
+|:--:|:--:|--|
 | Ponto de Controle 1 | 29/08 | - Definição e Planejamento do Projeto <br>- RichPictures <br>- Argumentação |
 | Ponto de Controle 2 | 10/09 | - Elicitação <br>- Técnicas <br>- Priorização |
 | Ponto de Controle 3 | 01/10 | - Cenários <br>- Léxicos <br>- Use Case <br>- Especificação Suplementar |
@@ -20,7 +23,8 @@ A seguir, estão descritas todas as datas importantes de entrega da equipe molda
 | Ponto de Controle 6 | 14/11 | - Pós-Rastreabilidade <br>- Gerência II |
 | Apresentação Final | 26/11 | - Revisão Geral <br>- Monstagem da Apresentação |
 
-## Ferramentas Utilizadas
+<h2 align="left">Ferramentas Utilizadas</h2>
+
 | Ferramenta | Nome | Descrição |
 |:--:|:--:|:--:|
 | ![audible_logo](img/Audible_logo.png) | [Audible](https://www.audible.com) | Plataforma de oferta de audiolivros. Será utilizada para o levantamento de requisitos |
