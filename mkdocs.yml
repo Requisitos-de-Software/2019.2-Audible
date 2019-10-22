@@ -14,8 +14,11 @@ pages:
   - MODELAGEM:
     - Cenários: cenarios.md
     - Léxicos: lexicos.md
+    - Casos de Uso: casos_de_uso.md
     - Especificação Suplementar: suplementar.md
-    - Istar: istar.md    
+    - Istar: istar.md
+    - Backlog do Produto: backlog.md
+    - NFR: nfr.md
   - PONTOS DE CONTROLE:
     - Ponto de controle 1: pc1.md
     - Ponto de controle 2: pc2.md
