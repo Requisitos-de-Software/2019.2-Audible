@@ -1,8 +1,8 @@
-# Ponto de Controle 2
+# Ponto de Controle 4
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 | --- | --- | --- | --- |
-| 1.0 | 12/09 | Adição do ponto de controle 2 | [Marco Antônio Costa](https://github.com/markinlimac) |
+| 1.0 | 22/09 | Adição do ponto de controle 4 | [Murilo Loiola Dantas](https://github.com/murilo-dan) |
 
 ## Introdução
 <p align="justify">&emsp;&emsp;O ponto de controle é uma ativadade para que o professor acompanhe o desenvolvimento do grupo em relação aos artefatos requeridos.</p>

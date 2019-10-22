@@ -1,6 +1,6 @@
 site_name: Audible
 extra_css: [extra.css]
-pages: 
+pages:
   - HOME: index.md
   - PLANEJAMENTO: planejamento.md
   - PRÉ-RASTREABILIDADE:
@@ -23,7 +23,8 @@ pages:
     - Ponto de controle 1: pc1.md
     - Ponto de controle 2: pc2.md
     - Ponto de controle 3: pc3.md
-theme: 
+    - Ponto de Controle 4: pc4.md
+theme:
     name: material
     language: 'pt'
     logo:
@@ -31,7 +32,7 @@ theme:
     palette:
       primary: 'orange'
       accent: 'orange'
-      
+
 repo_name: 'Audible'
 repo_url: 'https://github.com/Requisitos-de-Software/2019.2-Audible'
 edit_uri: ''

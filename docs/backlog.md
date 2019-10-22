@@ -5,7 +5,7 @@
 | 1.0 | 21/10/2019 | Adição do Backlog | [André Goretti](https://github.com/Agoretti), [Marco Antonio](https://github.com/markinlimac) e [João Gabriel](https://github.com/flyerjohn) |
 
 ## Introdução
-Em termos gerais, o Product BackLog é uma listagem de todos os afazeres pendentes no projeto. Ele substitui o modelo tradicional de especificação de artefatos. Cada elemento da listagem é elicitado por meio de interação da equipe de desenvolvimento com o Cliente - podendo ser apenas um representante, o que torna os elementos levantados muito arbitrários; ou podendo ser uma equipe representante do Cliente, representando as diversas áreas que utilizarão o produto.
+<p align="justify">&emsp;&emsp;Em termos gerais, o Product BackLog é uma listagem de todos os afazeres pendentes no projeto. Ele substitui o modelo tradicional de especificação de artefatos. Cada elemento da listagem é elicitado por meio de interação da equipe de desenvolvimento com o Cliente - podendo ser apenas um representante, o que torna os elementos levantados muito arbitrários; ou podendo ser uma equipe representante do Cliente, representando as diversas áreas que utilizarão o produto.</p>
 
 ## Backlog
 ![print](img/print_backlog.jpg)
@@ -37,7 +37,7 @@ Eu, como um usuário, desejo fazer uma busca na biblioteca de audiolivros para q
 ##### Critérios de aceitação
 
 * Deve possuir uma aba de pesquisa
-* Deve se mostrar resultados próxixmos
+* Deve se mostrar resultados próximos
 * Deve ter uma pagina de pesquisa avançada com maiores detalhes de livros
 * Deve direcionar para a pagina do livro escolhido
 
@@ -64,7 +64,7 @@ Eu, como um usuário, desejo obter sugestões de audiolivros com base em meus go
 ##### Critérios de aceitação
 
 * Deve existir uma página de recomendações
-* Deve ter salvo os livros lindos por aquele usuário
+* Deve ter salvo os livros lidos por aquele usuário
 * Deve ter uma categorização de livros
 * Deve mostrar livros associados com os já lidos
 
