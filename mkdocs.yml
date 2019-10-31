@@ -19,6 +19,10 @@ pages:
     - Istar: istar.md
     - Backlog do Produto: backlog.md
     - NFR: nfr.md
+  - ANÁLISE:
+    - VERIFICAÇÃO:
+      - RichPicture: verificacao_richpicture.md
+    - Validação: validacao.md
   - PONTOS DE CONTROLE:
     - Ponto de controle 1: pc1.md
     - Ponto de controle 2: pc2.md
