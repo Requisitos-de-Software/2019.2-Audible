@@ -25,6 +25,16 @@
 ## Checklist
 [![](img/verificacao_richpicture.png)](img/verificacao_richpicture.png)
 
+## Observações
+| RichPicture | Observações |
+| :---------: | ----------- |
+| RP01 | - Necessário definir o centro como o aplicativo da Audbile.</br>- Falta descrição para o ícone da Amazon.</br>- Adequar os ícones de usuário, avaliação e livros.</br>- Adicionar versionamento. |
+| RP02 | - Falta descrição para o ícone da Amazon.</br>- Falta descrição para o ícone da Audible.</br>- Adicionar versionamento. |
+| RP03 | - Falta descrição para o ícone da Amazon.</br> - Adequar ícones de livro e avaliação.</br>- Adicionar versionamento. |
+| RP04 | - Adequar ícone de usuário.</br> - Adicionar versionamento. |
+| RP05 | - Observar o fluxo na área de banco de dados. A relação com narração está correta?</br>- Falta descrição para o ícone da Amazon.</br>- Adequar ícones de avaliação, usuário e livro.</br>- Adicionar versionamento.|
+| RP06 | - Adequar ícone da Audible.</br>- Adicionar versionamento. |
+
 ## Resultados
 
 <p align="justify">&emsp;&emsp;Analisando o checklist, é possível perceber que a maior falha nos RichPictures é a falta de versionamento. Essa falha será corrigida utilizando o versionamento do repositório do grupo no GitHub. Além disso, é importante destacar que dois RichPictures apresentam somente 57% de sucesso, uma taxa notavelmente baixa. Com essa análise, esses dois RichPictures receberão mais foco durante o tratamento de erros. </p>
