@@ -10,7 +10,7 @@ Este documento tem como objetivo relatar a detecção de defeitos nos artefatos 
 
 ## Observações
 
-| Cenário | Observações |
+| Léxico | Observações |
 | ------- | ----------- |
 |  Todos  | Revisar todos os léxicos e adicionar rastreabilidade aonde se prova necessário, já ajudando no versionamento |
 |   L1    | Adicionar Sinônimos |
@@ -24,7 +24,7 @@ Este documento tem como objetivo relatar a detecção de defeitos nos artefatos 
 
 ## Conclusão
 
-Pela análise feita a partir dos CheckLists, os modelos gerados pelo grupo para o Audible ficaram bons. O que mais esteve ausente nos modelos foram os versionamentos e a falta de rastreabilidade, juntamente com alguns casos em que não havia sinônimos ou errados. As causas prováveis são questões de tempo, atenção ou alinhamento com os outros membros.
+Pela análise feita a partir dos CheckLists, os modelos gerados pelo grupo para o Audible ficaram bons. O que mais esteve ausente nos modelos foram os versionamentos e a falta de rastreabilidade, juntamente com alguns casos em que não havia sinônimos ou  estavam errados. As causas prováveis são questões de tempo, atenção ou alinhamento com os outros membros.
 
 ## Versionamento 
 
