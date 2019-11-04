@@ -2,7 +2,7 @@
 
 ## Introdução
 
-### Essa técnica tem como objetivo demonstrar os requisitos para todos os envolvidos para ter uma maior feedback do que fazer.
+ Essa técnica tem como objetivo demonstrar os requisitos para todos os envolvidos para ter uma maior feedback do que fazer.
 
 ## Metodologia
 

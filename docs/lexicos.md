@@ -6,7 +6,7 @@
 | 1.1 | 28/09/2019 | Adição de dois novos vocabulos. | João Gabriel Antunes |
 
 ## Introdução
-### O léxico trata-se de uma técnica que procura descrever os símbolos de uma linguagem, e o principal objetivo a ser perseguido na fase de modelagem é a identificação de palavras, frases ou expressões peculiares ao meio social da aplicação sob estudo.
+ O léxico trata-se de uma técnica que procura descrever os símbolos de uma linguagem, e o principal objetivo a ser perseguido na fase de modelagem é a identificação de palavras, frases ou expressões peculiares ao meio social da aplicação sob estudo.
 ### Os símbolos são definidos da seguinte forma:
 - Noção:  é o que significa (denotação).
 - Impacto: descreve o efeito/uso/ocorrência do símbolo na aplicação ou no efeito de algo na aplicação sobre ele (conotação).
