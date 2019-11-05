@@ -20,7 +20,7 @@ pages:
     - Backlog do Produto: backlog.md
     - NFR: nfr.md
   - ANÁLISE:
-    - VERIFICAÇÃO:
+    - Verificação:
       - RichPicture: verificacao_richpicture.md
     - Validação: validacao.md
   - PONTOS DE CONTROLE:
