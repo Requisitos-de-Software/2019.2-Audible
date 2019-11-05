@@ -5,7 +5,7 @@
 | 1.0 | 12/09/2019 | Brainstorm V1 | [Ian Rocha](https://github.com/IanPSRocha) |
 
 ## Introdução
-O brainstorming ou tempestade de ideias, mais que uma técnica de dinâmica de grupo, é uma atividade desenvolvida para explorar a potencialidade criativa de um indivíduo ou de um grupo colocando-a a serviço de objetivos pré-determinados.<br><br>A técnica propõe que o grupo se reúna e utilize a diversidade de pensamentos e experiências para gerar soluções inovadoras, sugerindo qualquer pensamento ou ideia que vier à mente a respeito do tema tratado. Com isso, espera-se reunir o maior número possível de ideias, visões, propostas e possibilidades que levem a um denominador comum e eficaz para solucionar problemas e entraves que impedem um projeto de seguir adiante.
+<p align="justify">&emsp;&emsp;O brainstorming ou tempestade de ideias, mais que uma técnica de dinâmica de grupo, é uma atividade desenvolvida para explorar a potencialidade criativa de um indivíduo ou de um grupo colocando-a a serviço de objetivos pré-determinados.</p><p align="justify">&emsp;&emsp;A técnica propõe que o grupo se reúna e utilize a diversidade de pensamentos e experiências para gerar soluções inovadoras, sugerindo qualquer pensamento ou ideia que vier à mente a respeito do tema tratado. Com isso, espera-se reunir o maior número possível de ideias, visões, propostas e possibilidades que levem a um denominador comum e eficaz para solucionar problemas e entraves que impedem um projeto de seguir adiante.</p>
 ## Brainstorm V1
 | BRAINSTORM | |
 | --- | --- |

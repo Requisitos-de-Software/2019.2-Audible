@@ -5,9 +5,9 @@
 | 1.0 | 12/09/2019 | Adição da introspecção | [André Goretti](https://github.com/Agoretti) |
 
 ## Introdução
-Introspecção é uma técnica muito rica e profunda. Consiste em entender quais propriedades o sistema deve possuir para que seja um sucesso. Demanda o Engenheiro de Requisitos imaginar o que ele gostaria, se ele estivesse que desempenhar uma dada tarefa,com os equipamentos disponíveis e demais recursos.</p>
+<p align="justify">&emsp;&emsp;Introspecção é uma técnica muito rica e profunda. Consiste em entender quais propriedades o sistema deve possuir para que seja um sucesso. Demanda o Engenheiro de Requisitos imaginar o que ele gostaria, se ele estivesse que desempenhar uma dada tarefa,com os equipamentos disponíveis e demais recursos.</p>
 ## Personas
-Para tentarmos tornar a introspeção menos subjetiva e mais direcionada, o grupo optou por criar algumas personas, criando uma história de fundo para cada uma delas. Consequentemente, cada persona para a ser uma pessoa com algum tipo de envolvimento com o Guiabolso, direto ou não. Dessa forma, os requisitos elicitados estarão dentro de um contexto de cada persona, não sendo somente pontos subjetivos elaboradas pelos membros da equipe. Ps.: A prioridade MoSCoW será elaborada a partir do ponto de vista de cada persona, ou seja, o quão importante ela considera aquele requisito.
+<p align="justify">&emsp;&emsp;Para tentarmos tornar a introspeção menos subjetiva e mais direcionada, o grupo optou por criar algumas personas, criando uma história de fundo para cada uma delas. Consequentemente, cada persona para a ser uma pessoa com algum tipo de envolvimento com o Guiabolso, direto ou não. Dessa forma, os requisitos elicitados estarão dentro de um contexto de cada persona, não sendo somente pontos subjetivos elaboradas pelos membros da equipe. Ps.: A prioridade MoSCoW será elaborada a partir do ponto de vista de cada persona, ou seja, o quão importante ela considera aquele requisito.</p>
 ### Persona 1
 | Persona | Agostinho Carrara |
 | --- | --- |

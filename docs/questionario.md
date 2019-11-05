@@ -5,7 +5,7 @@
 |1.0 |12/09/2019 |Questionário | [João Gabriel Antunes](https://github.com/flyerjohn) |
 
 ## Introdução
-O questionário é uma ótima maneira de elicitar requisitos, pois com ele é fácil saber qual as principais características e necessidades do público alvo, além, claro, de delinear este público.
+<p align="justify">&emsp;&emsp;O questionário é uma ótima maneira de elicitar requisitos, pois com ele é fácil saber qual as principais características e necessidades do público alvo, além, claro, de delinear este público.</p>
 ## Questões
 ### Questão 1
 ![Screenshot2](img/Q1.png)

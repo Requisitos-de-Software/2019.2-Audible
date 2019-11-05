@@ -1,9 +1,11 @@
-![Screenshot](img/audible_logo.png)
+<center>![Screenshot](img/audible_logo.png)</center>
 
-Repositório da disciplina de Requisitos de Software 2019.2 realizado sobre a aplicação Audible. Este repositório reúne artefatos de requisitos de software levantados a partir das aplicações web e mobile do Audible.
+<p align="justify">&emsp;&emsp;Repositório da disciplina de Requisitos de Software 2019.2 realizado sobre a aplicação Audible. Este repositório reúne artefatos de requisitos de software levantados a partir das aplicações web e mobile do Audible.</p>
 
 
 ## Equipe
+
+<center>
 
 | Foto | Nome | Email | GitHub|
 |--|--|--|--|

@@ -10,7 +10,7 @@ pages:
     - Priorização: priorizacao.md
     - Introspecção: introspeccao.md
     - Brainstorm: brainstorm.md
-    - Questionario: questionario.md
+    - Questionário: questionario.md
   - MODELAGEM:
     - Cenários: cenarios.md
     - Léxicos: lexicos.md
@@ -25,7 +25,7 @@ pages:
       - Casos de Uso: verificacao_casos_de_uso.md
       - Cenários: verificacao_cenarios.md
       - Léxico: verificacao_lexicos.md
-      - Ágil: verificacao_agil.md
+      - Backlog: verificacao_agil.md
     - Validação: validacao.md
   - PONTOS DE CONTROLE:
     - Ponto de controle 1: pc1.md
