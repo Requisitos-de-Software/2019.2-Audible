@@ -8,7 +8,7 @@
 <p align="justify">&emsp;&emsp;Em termos gerais, o Product BackLog é uma listagem de todos os afazeres pendentes no projeto. Ele substitui o modelo tradicional de especificação de artefatos. Cada elemento da listagem é elicitado por meio de interação da equipe de desenvolvimento com o Cliente - podendo ser apenas um representante, o que torna os elementos levantados muito arbitrários; ou podendo ser uma equipe representante do Cliente, representando as diversas áreas que utilizarão o produto.</p>
 
 ## Backlog
-![print](img/print_backlog.jpg)
+![print](img/PrintBacklog-V3.jpg)
 
 ### EP01: Cadastro
 #### US01: Fazer cadastro à plataforma
