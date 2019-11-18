@@ -3,6 +3,7 @@
 | Versão | Data | Modificação | Autor |
 | :---: | :---: | :---: | :---: |
 | 1.0 | 21/10/2019 | Adição do Backlog | [André Goretti](https://github.com/Agoretti), [Marco Antonio](https://github.com/markinlimac) e [João Gabriel](https://github.com/flyerjohn) |
+| 2.0 | 21/10/2019 | Adição das US09 a US13 | [João Gabriel](https://github.com/flyerjohn) |
 
 ## Introdução
 <p align="justify">&emsp;&emsp;Em termos gerais, o Product BackLog é uma listagem de todos os afazeres pendentes no projeto. Ele substitui o modelo tradicional de especificação de artefatos. Cada elemento da listagem é elicitado por meio de interação da equipe de desenvolvimento com o Cliente - podendo ser apenas um representante, o que torna os elementos levantados muito arbitrários; ou podendo ser uma equipe representante do Cliente, representando as diversas áreas que utilizarão o produto.</p>
