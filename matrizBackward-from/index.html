@@ -656,8 +656,43 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#legenda" class="md-nav__link">
     Legenda
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matriz-de-requisitos-funcionais" class="md-nav__link">
+    Matriz de Requisitos Funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matriz-de-requisitos-nao-funcionais" class="md-nav__link">
+    Matriz de Requisitos Não-Funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elos-funcionais" class="md-nav__link">
+    Elos Funcionais
   </a>
   
 </li>
@@ -771,8 +806,43 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#legenda" class="md-nav__link">
     Legenda
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matriz-de-requisitos-funcionais" class="md-nav__link">
+    Matriz de Requisitos Funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matriz-de-requisitos-nao-funcionais" class="md-nav__link">
+    Matriz de Requisitos Não-Funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elos-funcionais" class="md-nav__link">
+    Elos Funcionais
   </a>
   
 </li>
@@ -795,85 +865,409 @@
                 
                 
                 <h1 id="matriz-backward-from">Matriz Backward-from</h1>
+<h2 id="versionamento">Versionamento</h2>
 <table>
 <thead>
 <tr>
-<th>Tipo</th>
-<th>Requisito do sistema</th>
-<th>Elicitação</th>
-<th>Autor/Elvovido</th>
+<th align="center">Versão</th>
+<th align="center">Data</th>
+<th align="center">Modificação</th>
+<th align="center">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1.0</td>
+<td align="center">17/11/2019</td>
+<td align="center">Adição do artefato.</td>
+<td align="center"><a href="https://github.com/thallysbraz">Thallys Braz</a></td>
+</tr>
+<tr>
+<td align="center">1.1</td>
+<td align="center">18/11/2019</td>
+<td align="center">Adição dos requisitos não funcionais e elos.</td>
+<td align="center"><a href="https://github.com/murilo-dan">Murilo Loiola</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="introducao">Introdução</h2>
+<p align="justify">&emsp;&emsp;Este artefato busca ligar cada requisito levantado aos respectivos métodos de elicitação e modelagem utilizados na disciplina por meio da rastreabilidade Backward-from.</p>
+
+<h2 id="legenda">Legenda</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Sigla</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">RF, RNF</td>
+<td>Requisito Funcional, Requisito Não Funcional</td>
+</tr>
+<tr>
+<td align="center">EF, ENF</td>
+<td>Elo Funcional, Elo Não Funcional</td>
+</tr>
+<tr>
+<td align="center">RP</td>
+<td>RichPicture</td>
+</tr>
+<tr>
+<td align="center">C</td>
+<td>Cenário</td>
+</tr>
+<tr>
+<td align="center">L</td>
+<td>Léxico</td>
+</tr>
+<tr>
+<td align="center">UC</td>
+<td>Caso de Uso</td>
+</tr>
+<tr>
+<td align="center">ES</td>
+<td>Especificação Suplementar</td>
+</tr>
+<tr>
+<td align="center">IS</td>
+<td>IStar</td>
+</tr>
+<tr>
+<td align="center">US</td>
+<td>História de Usuário</td>
+</tr>
+<tr>
+<td align="center">NFR</td>
+<td>NFR Framework</td>
+</tr>
+</tbody>
+</table>
+<h2 id="matriz-de-requisitos-funcionais">Matriz de Requisitos Funcionais</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito</th>
+<th>Origem</th>
+<th>Elo</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>RF01</td>
-<td>A biblioteca/loja de audiolivros deve ser bem categorizada.</td>
-<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
-<td>Usuário não logado/ Usuário logado</td>
+<td>Possibilidade de navegar no aplicativo através de comandos de voz.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/introspeccao/">Introspecção</a></td>
+<td>EF01</td>
 </tr>
 <tr>
 <td>RF02</td>
-<td>O aplicativo deve ofertar audiolivros.</td>
-<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
-<td>Usuário não logado / Usuário logado</td>
+<td>Adição de um tutorial de como usar o aplicativo.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/introspeccao/">Introspecção</a></td>
+<td>EF02</td>
 </tr>
 <tr>
 <td>RF03</td>
-<td>O usuário pode baixar os livros localmente para escutar mesmo off-line.</td>
-<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
-<td>Usuário assinante</td>
+<td>Adicionar mais opções como artigos e revistas científicas.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/introspeccao/">Introspecção</a></td>
+<td>EF03</td>
 </tr>
 <tr>
 <td>RF04</td>
-<td>Salvar biblioteca pessoal na nuvem.</td>
-<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/questionario/">Questionário</a></td>
-<td>Usuário logado / Assinante</td>
+<td>A biblioteca/loja de audiolivros deve ser bem categorizada.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>EF04</td>
 </tr>
 <tr>
 <td>RF05</td>
+<td>O aplicativo deve ofertar audiolivros.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>EF05</td>
+</tr>
+<tr>
+<td>RF06</td>
+<td>O usuário pode baixar os livros localmente para escutar mesmo off-line.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>EF06</td>
+</tr>
+<tr>
+<td>RF07</td>
+<td>O usuário tem que ter acesso a uma barra de pesquisa para poder pesquisar palavras-chaves, autores, títulos, narrador, editora.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>EF07</td>
+</tr>
+<tr>
+<td>RF08</td>
+<td>O aplicativo deve conter um ambiente para reprodução dos próprios audiolivros.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>EF08</td>
+</tr>
+<tr>
+<td>RF09</td>
+<td>Deve haver variedade de livros disponíveis para o usuário.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>EF09</td>
+</tr>
+<tr>
+<td>RF10</td>
+<td>O aplicativo deve ser capaz de salvar o progresso de leitura do usuário, para que ele consiga ouvir de onde parou.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>EF10</td>
+</tr>
+<tr>
+<td>RF11</td>
+<td>Salvar biblioteca pessoal na nuvem.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/questionario/">Questionário</a></td>
+<td>EF11</td>
+</tr>
+<tr>
+<td>RF12</td>
+<td>Avaliação de livros disponível amplamente.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/questionario/">Questionário</a></td>
+<td>EF12</td>
+</tr>
+<tr>
+<td>RF13</td>
 <td>Busca de livros por narrador.</td>
 <td><a href="https://requisitos-de-software.github.io/2019.2-Audible/questionario/">Questionário</a></td>
-<td>Usuário</td>
+<td>EF13</td>
 </tr>
 <tr>
-<td>RNF01</td>
-<td>O aplicativo deve fornecer áudio de alta qualidade.</td>
-<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
-<td>Audible</td>
-</tr>
-<tr>
-<td>RNF02</td>
-<td>O usuário pode avaliar as avaliações.</td>
-<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
-<td>Usuário logado</td>
-</tr>
-<tr>
-<td>RNF03</td>
-<td>O usuário tem acesso a uma prévia do livro antes de efetuar a compra.</td>
-<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
-<td>Usuário logado</td>
-</tr>
-<tr>
-<td>RNF04</td>
-<td>Maior acessibilidade em toda a aplicação.</td>
+<td>RF14</td>
+<td>Serviço de assinatura para acesso ilimitado de livros.</td>
 <td><a href="https://requisitos-de-software.github.io/2019.2-Audible/questionario/">Questionário</a></td>
-<td>Audible</td>
-</tr>
-<tr>
-<td>RNF05</td>
-<td>Grande variedade de livros.</td>
-<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/questionario/">Questionário</a></td>
-<td>Audible</td>
+<td>EF14</td>
 </tr>
 </tbody>
 </table>
-<h2 id="legenda">Legenda</h2>
-<p><html>
-<ul>
-<li> RF: Requisito Funcional</li>
-<li> RNF: Requisito não funcional</li></p>
-<p></ul>
-</html></p>
+<h2 id="matriz-de-requisitos-nao-funcionais">Matriz de Requisitos Não-Funcionais</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito</th>
+<th>Origem</th>
+<th>Elo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RNF01</td>
+<td>Usuários de longa data recebem vantagens.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/introspeccao/">Introspecção</a></td>
+<td>ENF01</td>
+</tr>
+<tr>
+<td>RNF02</td>
+<td>O aplicativo deve fornecer áudio de alta qualidade.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>ENF02</td>
+</tr>
+<tr>
+<td>RNF03</td>
+<td>O usuário deve ser capaz de personalizar a reprodução do áudio livro (ex: acelerar/reduzir a velocidade de reprodução).</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>ENF03</td>
+</tr>
+<tr>
+<td>RNF04</td>
+<td>O usuário pode avaliar as avaliações.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>ENF04</td>
+</tr>
+<tr>
+<td>RNF05</td>
+<td>O sistema deve ter uma gama de audiolivros próprios.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>ENF05</td>
+</tr>
+<tr>
+<td>RNF06</td>
+<td>O usuário poderá salvar títulos em uma lista de desejos de fácil acesso a qualquer momento no app.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>ENF06</td>
+</tr>
+<tr>
+<td>RNF07</td>
+<td>O usuário tem acesso a uma prévia do livro antes de efetuar a compra.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>ENF07</td>
+</tr>
+<tr>
+<td>RNF08</td>
+<td>O sistema deve fornecer uma grande variedade de línguas.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>ENF08</td>
+</tr>
+<tr>
+<td>RNF09</td>
+<td>O app é multiplataforma iOS (Apple iPhone, Apple Watch, iPad), Android, Sonos, Kindle e Dispositivos habilitados para Alexa.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>ENF09</td>
+</tr>
+<tr>
+<td>RNF10</td>
+<td>O usuário deve ser capaz de avaliar o audiolivro de acordo com sua experiência.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>ENF10</td>
+</tr>
+<tr>
+<td>RNF11</td>
+<td>O usuário deve poder visualizar as avaliações de outros usuários antes de comprar o audiolivro.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/">BrainStorm</a></td>
+<td>ENF11</td>
+</tr>
+<tr>
+<td>RNF12</td>
+<td>Maior acessibilidade em toda a aplicação.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/questionario/">Questionário</a></td>
+<td>ENF12</td>
+</tr>
+<tr>
+<td>RNF13</td>
+<td>Grande variedade de livros.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/questionario/">Questionário</a></td>
+<td>ENF13</td>
+</tr>
+<tr>
+<td>RNF14</td>
+<td>Áreas de descoberta de novos livros baseada nos gostos do usuário.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/questionario/">Questionário</a></td>
+<td>ENF14</td>
+</tr>
+<tr>
+<td>RNF15</td>
+<td>Sistema ter maneiras de incentivar a leitura ao usuário.</td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Audible/questionario/">Questionário</a></td>
+<td>ENF15</td>
+</tr>
+</tbody>
+</table>
+<h2 id="elos-funcionais">Elos Funcionais</h2>
+<p><strong>EF01</strong></br>
+Categoria: Desenvolvimento</br>
+Elementos Rastreáveis:</br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/introspeccao/#persona-1">P1</a></br>
+<a href="http://localhost:8000/suplementar/#agilidade">ES</a></br>
+Elos:</br>Satisfação: ES <strong>satisfaz</strong> P1</p>
+<p><strong>EF02</strong></br>
+Categoria: Desenvolvimento</br>
+Elementos Rastreáveis:</br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/introspeccao/#persona-2">P2</a></br>
+<a href="http://localhost:8000/suplementar/#pequena-curva-de-aprendizado">ES</a></br>
+Elos:</br>Satisfação: ES <strong>satisfaz</strong> P2</p>
+<p><strong>EF03</strong></br>
+Categoria: Desenvolvimento</br>
+Elementos Rastreáveis:</br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/introspeccao/#persona-3">P3</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/casos_de_uso/#6-caso-de-uso-variedade-de-livros">UC6</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C3</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/lexicos/#audiolivro">L1</a></br>
+Elos:</br>Satisfação: C3 <strong>satisfaz</strong> P3; C3 <strong>satisfaz</strong> UC6</p>
+<p><strong>EF04</strong></br>
+Categoria: Desenvolvimento</br>
+Elementos Rastreáveis:</br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C10</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C11</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C12</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C13</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C14</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C15</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C16</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/lexicos/#biblioteca">L2</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/backlog/#us04-criar-colecoes-proprias-dos-audiolivros-adquiridos">US4</a></br>
+Elos:</br>Recurso: C's são <strong>recursos</strong> de L2;</p>
+<p><strong>EF05</strong></br>
+Categoria: Desenvolvimento</br>
+Elementos Rastreáveis:</br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/rich_picture/#rp4-loja">RP04</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C1</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/lexicos/#loja">L7</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/casos_de_uso/#2-caso-de-uso-comprar-audiolivros">UC2</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/backlog/#us014-ter-acesso-a-uma-loja-bem-categorizada">US14</a></br>
+Elos:</br>Satisfação: US14 <strong>satisfaz</strong> C1;
+</br>Representação: RP4 <strong>representa</strong> L1; RP4 <strong>representa</strong> C1;
+</br>Alocação: UC2 está <strong>alocada</strong> em RP4;</p>
+<p><strong>EF06</strong></br>
+Categoria: Desenvolvimento</br>
+Elementos Rastreáveis:</br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C17</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/casos_de_uso/#3-caso-de-uso-baixar-audiolivros">UC3</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/backlog/#us07-salvar-meus-audiolivros-localmente">US7</a></br>
+Elos:</br>Representação: UC3 <strong>representa</strong> US7;
+</br>Satisfação: UC3 <strong>satisfaz</strong> C17;</p>
+<p><strong>EF07</strong></br>
+Categoria: Desenvolvimento</br>
+Elementos Rastreáveis:</br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C1</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/lexicos/#barra-de-busca">L3</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/casos_de_uso/#4-caso-de-uso-barra-de-pesquisa">UC04</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/istar/#busca">IS2</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/backlog/#us03-fazer-uma-busca-na-biblioteca-de-audiolivros">US03</a></br>
+Elos:</br>Satisfação: UC4 <strong>satisfaz</strong> C1;
+</br>Representação: UC4 <strong>representa</strong> L3;
+</br>Agregação: IS2 é <strong>composto</strong> por UC4;</p>
+<p><strong>EF08</strong></br>
+Categoria: Desenvolvimento</br>
+Elementos Rastreáveis:</br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C28</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/lexicos/#player">L10</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/casos_de_uso/#5-caso-de-uso-ambiente-de-reproducao">UC5</a></br>
+Elos:</br>Representação: UC5 <strong>representa</strong> L10;
+</br>Recurso: C28 é <strong>recurso</strong> de UC5;</p>
+<p><strong>EF09</strong></br>
+Categoria: Desenvolvimento</br>
+Elementos Rastreáveis:</br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/introspeccao/#persona-3">P3</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/casos_de_uso/#6-caso-de-uso-variedade-de-livros">UC6</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C3</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/lexicos/#audiolivro">L1</a></br>
+Elos:</br>Satisfação: C3 <strong>satisfaz</strong> P3; C3 <strong>satisfaz</strong> UC6</p>
+<p><strong>EF10</strong></br>
+Categoria: Desenvolvimento</br>
+Elementos Rastreáveis:</br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/lexicos/#progresso-de-leitura">L4</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/casos_de_uso/#8-uso-de-caso-salvar-o-progresso-do-livro">UC8</a></br>
+Elos:</br>Representação: UC8 <strong>representa</strong> L4</p>
+<p><strong>EF11</strong></br>
+Categoria: Desenvolvimento</br>
+Elementos Rastreáveis:</br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C8</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/backlog/#us08-fazer-upload-da-minha-biblioteca-pessoal-para-a-nuvem">US8</a></br>
+Elos:</br>Satisfação: US8 <strong>satisfaz</strong> C8</p>
+<p><strong>EF12</strong></br>
+Categoria: Desenvolvimento</br>
+Elementos Rastreáveis:</br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/rich_picture/#rp6-avaliacao">RP6</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/lexicos/#avaliar">L5</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/casos_de_uso/#9-uso-de-caso-avaliacao-de-livros">UC9</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/istar/#avaliacao">IS5</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/backlog/#us011-ter-acesso-a-avaliacoes-de-audiolivros">US11</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/backlog/#us012-avaliar-titulos">US12</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/backlog/#us013-avaliar-avaliacoes">US13</a></br>
+Elos:</br>Representação: RP6 <strong>representa</strong> L5; RP6 <strong>representa</strong> US's; UC9 <strong>representa</strong> L5
+</br>Recurso: US's são <strong>recursos</strong> de IS5
+</br>Alocação: UC9 está <strong>alocado</strong> em RP6</p>
+<p><strong>EF13</strong></br>
+Categoria: Desenvolvimento</br>
+Elementos Rastreáveis:</br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/lexicos/#narrador">L9</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/backlog/#us019-buscar-titulos-por-narrador">US19</a></br>
+Elos: Sem elos estabelecidos</p>
+<p><strong>EF14</strong></br>
+Categoria: Desenvolvimento</br>
+Elementos Rastreáveis:</br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/rich_picture/#rp4-loja">RP4</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/cenarios/">C2</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/lexicos/#assinatura">L6</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/casos_de_uso/#7-caso-de-uso-assinar-o-audible">UC7</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/istar/#assinatura">IS1</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/backlog/#us09-realizar-assinatura-do-servico-premium">US9</a></br>
+<a href="https://requisitos-de-software.github.io/2019.2-Audible/backlog/#us10-obter-catalogo-exclusivo-de-audiolivros-para-assinantes">US10</a></br>
+Elos:</br>Representação: UC7 <strong>representa</strong> L6; UC7 <strong>representa</strong> US's
+</br>Agregação: UC7 <strong>compõem</strong> IS1
+</br>Satisfação: UC7 <strong>satisfaz</strong> C2</p>
                 
                   
                 
