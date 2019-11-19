@@ -21,8 +21,8 @@
 #### Requisitos Levantados
 | Código | Descrição | Prioridade |
 | --- | --- | --- |
-| INS01 | Possibilidade de navegar no aplicativo através de comandos de voz. | Should |
-| INS02 | Usuários de longa data recebem vantagens. | Could |
+| RF01 | Possibilidade de navegar no aplicativo através de comandos de voz. | Should |
+| RNF01 | Usuários de longa data recebem vantagens. | Could |
 
 ### Persona 2
 | Persona | Jõao das Neves |
@@ -38,7 +38,7 @@
 #### Requisitos Levantados
 | Código | Descrição | Prioridade |
 | --- | --- | --- |
-| INS03 | Adição de um tutorial de como usar o aplicativo. | Should |
+| RF02 | Adição de um tutorial de como usar o aplicativo. | Should |
 
 ### Persona 3
 | Persona | AmyFarrah Flower |
@@ -53,4 +53,4 @@
 #### Requisitos Levantados
 | Código | Descrição | Prioridade |
 | --- | --- | --- |
-| INS04 | Adicionar mais opções como artigos e revistas científicas. | Would |
+| RF03 | Adicionar mais opções como artigos e revistas científicas. | Would |

@@ -33,10 +33,9 @@
 | Código | Descrição | Prioridade |
 |--|--|--|
 | RF01 | Salvar biblioteca pessoal na nuvem. | Must |
-| RF02 | O aplicativo deve ofertar audiolivros. | Must |
-| RF03 | Avaliação de livros disponível amplamente. | Should |
-| RF04 | Busca de livros por narrador. | Could |
-| RF05 | Serviço de assinatura para acesso ilimitado de livros. | Would |
+| RF02 | Avaliação de livros disponível amplamente. | Should |
+| RF03 | Busca de livros por narrador. | Could |
+| RF04 | Serviço de assinatura para acesso ilimitado de livros. | Would |
 
 ### Requisitos Não Funcionais
 | Código | Descrição | Prioridade |

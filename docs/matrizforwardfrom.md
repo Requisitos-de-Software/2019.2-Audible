@@ -5,7 +5,7 @@
 | 1.0 | 17/11/2019 | Adição do artefato. | [João Gabriel](https://github.com/flyerjohn) |
 
 ## Introdução
-<p align="justify">&emsp;&emsp;Em termos gerais, A Matriz Forward-From é a matriz que representa a ligação dos requisitos aos artefatso de desenho e implementação do sistema. 
+<p align="justify">&emsp;&emsp;Em termos gerais, A Matriz Forward-From é a matriz que representa a ligação dos requisitos aos artefatos de desenho e implementação do sistema. 
 O modelo escolhido pela equipe foi o Meta-Modelo de Toranzo, que utiliza as classificações abaixo:</p>
 
 * Ambiental: informações oriundas do contexto no qual a organização está inserida.
