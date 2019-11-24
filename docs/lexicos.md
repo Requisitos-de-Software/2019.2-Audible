@@ -2,8 +2,10 @@
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 | ------ | ---- | ----------- | ----- |
-| 1.0 | 28/09/2019 | Léxico. | João Gabriel Antunes |
-| 1.1 | 28/09/2019 | Adição de dois novos vocabulos. | João Gabriel Antunes |
+| 1.0 | 28/09/2019 | Léxico. | [João Gabriel](https://github.com/flyerjohn) |
+| 1.1 | 28/09/2019 | Adição de dois novos vocabulos. | [João Gabriel](https://github.com/flyerjohn) |
+| 2.0 | 23/11/2019 | Revisão de todos os vocábulos e adição de mais 4 novos. | [João Gabriel](https://github.com/flyerjohn) |
+
 
 ## Introdução
  O léxico trata-se de uma técnica que procura descrever os símbolos de uma linguagem, e o principal objetivo a ser perseguido na fase de modelagem é a identificação de palavras, frases ou expressões peculiares ao meio social da aplicação sob estudo.
@@ -29,7 +31,7 @@
 ### **Biblioteca**
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Espaço do sistema destinado a salvar os livros adquiridos pelo usuário. | Possibilita a organização dos títulos, e permite o fácil acesso a eles. | - |
+| Objeto | Espaço do sistema destinado a salvar os livros adquiridos pelo usuário. | Possibilita a organização dos títulos, e permite o fácil acesso a eles. | Catálogo pessoal, lista pessoal. |
 
 ### **Barra de busca**
 | Classificação | Noção | Impacto | Sinônimos |
@@ -39,7 +41,7 @@
 ### **Progresso de leitura**
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Estado | Refere-se à informação sobre o atual desenvolvimento de leitura do usuário. | Torna a leitura espaçada possível, permitindo ao usuário o poder de voltar a ler exatamente de onde tinha parado. | - |
+| Estado | Refere-se à informação sobre o atual desenvolvimento de leitura do usuário. | Torna a leitura espaçada possível, permitindo ao usuário o poder de voltar a ler exatamente de onde tinha parado. | Desenvolvimento de leitura. |
 
 ### **Avaliar**
 | Classificação | Noção | Impacto | Sinônimos |
@@ -49,29 +51,49 @@
 ### **Assinatura**
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Estado | Serviço fornecido para que o usuário usufrua de certas vantagens durante o uso do sistema. | Permite que o usuário tenha acesso à títulos originais da plataforma, assim como concede um número fixo de títulos por mês os quais os usuários podem adquirir sem custo adicional. | - |
+| Estado | Serviço fornecido para que o usuário usufrua de certas vantagens durante o uso do sistema. | Permite que o usuário tenha acesso à títulos originais da plataforma, assim como concede um número fixo de títulos por mês os quais os usuários podem adquirir sem custo adicional. | Serviço *premium*. |
 
 ### **Loja**
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Local do sistema destinado à compra de títulos. | Permite que o usuário compre audiolivros. | - |
+| Objeto | Local do sistema destinado à compra de títulos. | Permite que o usuário compre audiolivros. | Catálogo. |
 
 ### **Lista de desejos**
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Local do sistema destinado à listagem de audiolivros desejados. | Auxilia o usuário a encontrar títulos que lhe causaram interesse mas que não foram comprados. Ainda | - |
+| Objeto | Local do sistema destinado à listagem de audiolivros desejados. | Auxilia o usuário a encontrar títulos que lhe causaram interesse mas que não foram comprados. Ainda. | *Wish List*. |
 
 ### **Narrador**
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Ator, dublador ou pessoa convidada pelos editores da plataforma para gravar sua voz e dar vida ao audiolivro. | Atrai usuários para a plataforma e fomenta o desenvolvimento do sistema. | - |
+| Objeto | Ator, dublador ou pessoa convidada pelos editores da plataforma para gravar sua voz e dar vida ao audiolivro. | Atrai usuários para a plataforma e fomenta o desenvolvimento do sistema. | Dublador. |
 
 ### **Player**
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Ferramenta utilizada para ouvir audiolivros no aplicativo. | Permite personalizar a experiência ao ouvir um audiolivro (pausando, acelerando ou destacando partes durante a reprodução do audiolivro). | - |
+| Objeto | Ferramenta utilizada para ouvir audiolivros no aplicativo. | Permite personalizar a experiência ao ouvir um audiolivro (pausando, acelerando ou destacando partes durante a reprodução do audiolivro). | Ambiente de reprodução |
 
 ### **Amostra**
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
 | Objeto | Pequena parte de uma audiolivro, normalmente o início da obra, e que pode ser consumida sem gastos. | Permite ao usuário experimentar a narração e o texto da obra antes de efetuar a compra para decidir se lhe agrada. | Demonstração, prévia. |
+
+### **Ordenar**
+| Classificação | Noção | Impacto | Sinônimos |
+| ------------- | ----- | ------- | --------- |
+| Verbo | Opção de escolha para ordenar biblioteca de diferentes maneiras. | Permite ao usuário ordenar sua biblioteca pessoal conforme sua preferência. | Filtrar, organizar, arranjar. |
+
+### **Avançar**
+| Classificação | Noção | Impacto | Sinônimos |
+| ------------- | ----- | ------- | --------- |
+| Verbo | Opção de escolha para avançar progresso de reprodução. | Permite ao usuário avançar reprodução de seu audiolivro conforme sua preferência. | Adiantar. |
+
+### **Retroceder**
+| Classificação | Noção | Impacto | Sinônimos |
+| ------------- | ----- | ------- | --------- |
+| Verbo | Opção de escolha retroceder progresso de reprodução. | Permite ao usuário retroceder reprodução de seu audiolivro conforme sua preferência. | Retroagir, voltar. |
+
+### **Reprodução**
+| Classificação | Noção | Impacto | Sinônimos |
+| ------------- | ----- | ------- | --------- |
+| Reprodução | Habilidade do sistema de apresentar áudios para os usuários. | Permite ao usuário ouvir, no ambiente de reprodução do sistema, seus audiolivros. | Tocar, *play*. |
