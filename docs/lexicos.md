@@ -96,4 +96,4 @@
 ### **Reprodução**
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Reprodução | Habilidade do sistema de apresentar áudios para os usuários. | Permite ao usuário ouvir, no ambiente de reprodução do sistema, seus audiolivros. | Tocar, *play*. |
+| Objeto | Habilidade do sistema de apresentar áudios para os usuários. | Permite ao usuário ouvir, no ambiente de reprodução do sistema, seus audiolivros. | Tocar, *play*. |
