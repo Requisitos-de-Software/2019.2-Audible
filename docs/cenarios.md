@@ -23,6 +23,25 @@ Utilizaremos como base esse modelo de tabela.
 Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 
 ## Cenários
+
+|C1|Pesquisa de livros na aba de pesquisa|
+|---|---|
+|**Versão**|1.1|
+|**Autor**| André Goretti|
+|**Metas**|Encontrar o livro desejado|
+|**Contexto**|**Local:**<br>>Em qualquer Página do Audible<br> **Pré-Condição:**<br>>Não saber se o livro está no site <br> **Pós-Condição:**<br>>Saber se o livro existe no sistema <br>|
+|**Atores**|Usuário|
+|**Recursos**|Internet, aplicativo|
+|**Restrições**|Ter acesso a aba de pesquisa|
+|**Exceções**|Internet cair <br> App dar crash <br> Não encontrar o livro no sistema |
+|**Episódios**|Usuário Pesquisar na aba de pesquisa <br> Usuário encontrar nas recomendaçoẽs <br> Usuário não encontrar nenhum livro com o nome desejado |
+
+
+
+<br>
+<br>
+<br>
+
 |C1|Pesquisa de livros na aba de pesquisa|
 |---|---|
 |**Versão**|1.0|
@@ -41,6 +60,22 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 
 |C2|Assinar Audible|
 |---|---|
+|**Versão**|1.1|
+|**Autor**| André Goretti|
+|**Metas**|Ter acesso ao serviço de assinatura completo|
+|**Contexto**|**Local:**<br>>Página "Account Details" da conta amazon no site<br> **Pré-Condição:**<br>>Usuário não ser assinante <br> **Pós-Condição:**<br>>usuário ser assinante <br>|
+|**Atores**|Usuário não assinante |
+|**Recursos**|Internet, aplicativo, conta da Amazon|
+|**Restrições**|O usúario ter conta na Amazon|
+|**Exceções**|Internet cair <br> App dar crash <br> Não estar logado na conta Amazon  <br> Amazon fora do ar |
+|**Episódios**|Usuário não Assinante abre o aplicativo <br> Usuário entra na conta Amazon <br> Se o usuário já estiver logado, então seleciona "Subscribe" <br> Usuário confirma Pagamento no serviço da Amazon e recebe uma confirmação de que eh assinante|
+
+<br>
+<br>
+<br>
+
+|C2|Assinar Audible|
+|---|---|
 |**Versão**|1.0|
 |**Autor**| André Goretti|
 |**Metas**|Ter acesso ao serviço de assinatura completo|
@@ -50,6 +85,22 @@ Onde tudo deve estar bem detalhado recorrendo a todos os recursos utilizados.
 |**Restrições**| Ter conta amazon|
 |**Exceções**| Internet/serviço indisponível <br> Falta de dinheiro|
 |**Episódios**|O usuário entra no app e decide contratar o serviço para poder usar livros de graça e ganhar bonificações.|
+
+<br>
+<br>
+<br>
+
+|C3|Dublar novo livro|
+|---|---|
+|**Versão**|1.1|
+|**Autor**| André Goretti|
+|**Metas**|Adicionar livros novos|
+|**Contexto**|**Local:**<br>>Área de contato com o "staff" do audible<br> **Pré-Condição:**<br>>Não ter o livro no site <br> **Pós-Condição:**<br>>ter o livro no site <br>|
+|**Atores**|Editoras/Autores e Dubladores |
+|**Recursos**|O livro que será adicionado, recursos para gravar o audio, Contrato para uso do livro|
+|**Restrições**|Direitos para uso e publicação do livro|
+|**Exceções**|Internet cair <br> App dar crash <br> Senha inválida <br> E-mail inválido <br> Amazon fora do ar <br> Conta da Amazon inexistente|
+|**Episódios**|Editora entra em contato para pedir publicação do livro <br> O audible entra em contato com editora para pedir adição do livro <br> Audible contrata dublador <br> Gravação do audio do livro em estúdio |
 
 <br>
 <br>
