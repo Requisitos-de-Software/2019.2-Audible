@@ -19,7 +19,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Versão**|1.0|
 |**Autor**| Autor do cenário|
 |**Metas**|Objetivo do ceário|
-|**Contexto**|**O que?**<br>><br> **Onde?**<br>><br> **Quando?**<br>> <br> **Por que?**<br>><br>|
+|**Contexto**|**Local:**<br>><br> **Pré-Condição:**<br>><br> **Pós-Condição:**<br>> |
 |**Atores**|Atores Envolvidos|
 |**Recursos**|Recursos Envolvidos|
 |**Restrições**| Descrição das restrições|
@@ -27,7 +27,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Episódios**|Detalhes do evento|
 
 ## Cenários
-####C1 - Pesquisa de livros na aba de pesquisa
+#### C1 - Pesquisa de livros na aba de pesquisa
 |||
 |---|---|
 |**Versão**|1.1|
@@ -40,7 +40,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash <br> Não encontrar o livro no sistema |
 |**Episódios**|Usuário Pesquisar na aba de pesquisa <br> Usuário encontrar nas recomendaçoẽs <br> Usuário não encontrar nenhum livro com o nome desejado |
 
-####C2 - Assinar Audible
+#### C2 - Assinar Audible
 |||
 |---|---|
 |**Versão**|1.1|
@@ -53,7 +53,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash <br> Não estar logado na conta Amazon  <br> Amazon fora do ar |
 |**Episódios**|Usuário não Assinante abre o aplicativo <br> Usuário entra na conta Amazon <br> Se o usuário já estiver logado, então seleciona "Subscribe" <br> Usuário confirma Pagamento no serviço da Amazon e recebe uma confirmação de que eh assinante|
 
-####C3 - Dublar novo livro
+#### C3 - Dublar novo livro
 |||
 |---|---|
 |**Versão**|1.1|
@@ -66,7 +66,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash <br> Senha inválida <br> E-mail inválido <br> Amazon fora do ar <br> Conta da Amazon inexistente|
 |**Episódios**|Editora entra em contato para pedir publicação do livro <br> O audible entra em contato com editora para pedir adição do livro <br> Audible contrata dublador <br> Gravação do audio do livro em estúdio |
 
-####C4 - Cadastro de Usuário
+#### C4 - Cadastro de Usuário
 |||
 |---|---|
 |**Versão**|1.0|
@@ -79,7 +79,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash <br> Senha inválida <br> E-mail inválido <br> Amazon fora do ar <br> Conta da Amazon inexistente|
 |**Episódios**|Usuário não cadastrado abre o aplicativo <br> Usuário seleciona fazer o cadastro <br> Se o usuário já tiver conta na Amazon, então seleciona entrar <br> Senão usuário preenche e-mail, senha e confirmação da senha <br> Usuário confirma cadastro no e-mail e é redirecionado para a página principal do Audible|
 
-####C5 - Fazer login
+#### C5 - Fazer login
 |||
 |---|---|
 |**Versão**|1.0|
@@ -92,7 +92,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Esquecer a senha <br> Esquecer o e-mail <br> Não ter cadastro |
 |**Episódios**|Inicializar o Audible <br> Clicar em "get started" ou "sign in" <br> Inserir email e senha <br> Clicar em "continue"|
 
-####C6 - Sair do aplicativo Audible
+#### C6 - Sair do aplicativo Audible
 |||
 |---|---|
 |**Versão**|1.0|
@@ -105,7 +105,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Usuário entra na aba "more" <br> Usuário seleciona a opção "settings" <br> Usuário seleciona a opção "sign out" <br> Usuário confirma a ação <br> Usuário visualiza a o app Audible como visitante|
 
-####C7 - Experimentar o aplicativo
+#### C7 - Experimentar o aplicativo
 |||
 |---|---|
 |**Versão**|1.0|
@@ -118,7 +118,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
 
-####C8 - Ver audiolivros salvos na nuvem
+#### C8 - Ver audiolivros salvos na nuvem
 |||
 |---|---|
 |**Versão**|1.0|
@@ -131,7 +131,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash <br> Não possuir audiolivro na conta|
 |**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica em "cloud" <br> Usuário visualiza audiolivros salvos na nuvem|
 
-####C9 - Ver audiolivros salvos no aparelho
+#### C9 - Ver audiolivros salvos no aparelho
 |||
 |---|---|
 |**Versão**|1.0|
@@ -144,7 +144,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash <br> Não possuir audiolivro na conta <br> Não ter baixado nenhum audiolivro|
 |**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica em "device" <br> Usuário visualiza audiolivros salvos no aparelho|
 
-####C10 - Ordenar por recentes
+#### C10 - Ordenar por recentes
 |||
 |---|---|
 |**Versão**|1.0|
@@ -157,7 +157,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash <br> Não possuir audiolivro na conta|
 |**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "sort by" <br> Usuário seleciona "recent" <br> Usuário visualiza audiolivros ordenados por recentes|
 
-####C11 - Ordenar por tamanho do audiolivro
+#### C11 - Ordenar por tamanho do audiolivro
 |||
 |---|---|
 |**Versão**|1.0|
@@ -170,7 +170,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash <br> Não possuir audiolivro na conta|
 |**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "sort by" <br> Usuário seleciona "length" <br> Usuário visualiza audiolivros ordenados por tamanho|
 
-####C12 - Ordenar por título
+#### C12 - Ordenar por título
 |||
 |---|---|
 |**Versão**|1.0|
@@ -183,7 +183,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash <br> Não possuir audiolivro na conta|
 |**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "sort by" <br> Usuário seleciona "title" <br> Usuário visualiza audiolivros ordenados por título|
 
-####C13 - Ordenar por autor
+#### C13 - Ordenar por autor
 |||
 |---|---|
 |**Versão**|1.0|
@@ -196,7 +196,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash <br> Não possuir audiolivro na conta|
 |**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "sort by" <br> Usuário seleciona "author" <br> Usuário visualiza audiolivros ordenados por autor|
 
-####C14 - Filtrar por todos os títulos
+#### C14 - Filtrar por todos os títulos
 |||
 |---|---|
 |**Versão**|1.0|
@@ -209,7 +209,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "filter by" <br> Usuário seleciona "all titles" <br> Usuário visualiza todos audiolivros que o usuário possui na biblioteca|
 
-####C15 - Filtrar por trechos
+#### C15 - Filtrar por trechos
 |||
 |---|---|
 |**Versão**|1.0|
@@ -222,7 +222,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "filter by" <br> Usuário seleciona "excerpts" <br> Usuário visualiza trechos de audiolivros que estão disponiveis para download no Audible|
 
-####C16 - Filtrar por não terminados
+#### C16 - Filtrar por não terminados
 |||
 |---|---|
 |**Versão**|1.0|
@@ -235,7 +235,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "filter by" <br> Usuário seleciona "unfinished" <br> Usuário visualiza todos os audiolivros não terminados que o usuário possui na biblioteca|
 
-####C17 - Deletar audiolivro
+#### C17 - Deletar audiolivro
 |||
 |---|---|
 |**Versão**|1.0|
@@ -248,7 +248,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "my library" <br> Clica no ícone "delete" <br> Usuário seleciona o audiolivro que vai ser deletado <br> Usuário seleciona "delete from device" <br> O audiolivro é deletado da biblioteca|
 
-####C18 - Descobrir novos livros em destaque
+#### C18 - Descobrir novos livros em destaque
 |||
 |---|---|
 |**Versão**|1.0|
@@ -261,7 +261,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "discover" <br> Seleciona "featured" <br> O usuário vê todos os titulos em destaque na loja, por categorias|
 
-####C19 - Descobrir novos livros por categorias
+#### C19 - Descobrir novos livros por categorias
 |||
 |---|---|
 |**Versão**|1.0|
@@ -274,7 +274,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "discover" <br> Seleciona "categories" <br> O usuário vê todas as categorias existentes|
 
-####C20 - Descobrir livros originais Audible
+#### C20 - Descobrir livros originais Audible
 |||
 |---|---|
 |**Versão**|1.0|
@@ -287,7 +287,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Seleciona a aba "originals" <br> O usuário vê todos audiolivros originais do Audible|
 
-####C21 - Ouvir amostra
+#### C21 - Ouvir amostra
 |||
 |---|---|
 |**Versão**|1.0|
@@ -300,7 +300,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash <br> Aparelho estar sem som|
 |**Episódios**|Usuário abre o aplicativo <br> Entra em algum audiolivro <br> Clica em "sample now" <br> Usuário começa a ouvir a amostra do audiolivro|
 
-####C22 - Pausar amostra
+#### C22 - Pausar amostra
 |||
 |---|---|
 |**Versão**|1.0|
@@ -313,7 +313,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Clicar em "get started" ou "sign in" <br> Clicar em "try app" <br> Usuário visualiza a o app Audible como visitante|
 
-####C23 - Adicionar na lista de desejos
+#### C23 - Adicionar na lista de desejos
 |||
 |---|---|
 |**Versão**|1.0|
@@ -326,7 +326,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Entra em algum audiolivro <br> Clica em "add to wish list" <br>O audiolivro é adiciona na lista de desejo do usuário|
 
-####C24 - Ler sumário
+#### C24 - Ler sumário
 |||
 |---|---|
 |**Versão**|1.0|
@@ -339,7 +339,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash <br> O livro não possuir sumário cadastrado |
 |**Episódios**|Usuário abre o aplicativo <br> Entra em algum audiolivro <br> Clica em "summary" <br> O usuário tem acesso ao sumário do livro|
 
-####C25 - Ler reviews
+#### C25 - Ler reviews
 |||
 |---|---|
 |**Versão**|1.0|
@@ -352,7 +352,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash <br>  O livro não possuir review|
 |**Episódios**|Usuário abre o aplicativo <br> Entra em algum audiolivro <br> Clica em "reviews" <br> O usuário tem acesso aos reviews do livro|
 
-####C26 - Adiantar 30 segundos
+#### C26 - Adiantar 30 segundos
 |||
 |---|---|
 |**Versão**|1.0|
@@ -365,7 +365,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Começa a escutar algum audiolivro <br> Entra no player <br> Clica no icone de avançar 30 segundos <br> O audio avança 30 segundos|
 
-####C27 - Voltar 30 segundos
+#### C27 - Voltar 30 segundos
 |||
 |---|---|
 |**Versão**|1.0|
@@ -378,7 +378,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Começa a escutar algum audiolivro <br> Entra no player <br> Clica no icone de voltar 30 segundos <br> O audio volta 30 segundos|
 
-####C28 - Mudar velocidade de reprodução
+#### C28 - Mudar velocidade de reprodução
 |||
 |---|---|
 |**Versão**|1.0|
@@ -391,7 +391,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Começa a escutar algum audiolivro <br> Entra no player <br> Clica no icone "speed" <br> Usuário seleciona a velocidade que deseja reproduzir o audio <br> A velocidade do audio é alterada|
 
-####C29 - Escolher timer
+#### C29 - Escolher timer
 |||
 |---|---|
 |**Versão**|1.0|
@@ -404,7 +404,7 @@ Utilizaremos como base esse modelo de tabela.
 |**Exceções**|Internet cair <br> App dar crash |
 |**Episódios**|Usuário abre o aplicativo <br> Começa a escutar algum audiolivro <br> Entra no player <br> Clica no icone "sleep timer" <br> Usuário seleciona o tempo que deseja reproduzir o audio <br> O tempo é definido e começa uma contagem regressiva na tela|
 
-####C30 - Escolher volume
+#### C30 - Escolher volume
 |||
 |---|---|
 |**Versão**|1.0|
