@@ -1,5 +1,10 @@
 # Especificação Suplementar
 
+### Versionamento
+| Data | Versão | Descrição | Autor |
+| :--: | :---:  | --------- | :---: |
+| 30/09/2019 | 1.0 | Especificação Suplementar | [Ian Rocha](https://github.com/IanPSRocha) |
+
 ## Introdução
 
 <p align="justify">&emsp;&emsp;Uma especificação suplementar lista os requisitos não-funcionais do sistema, junto com as outras técnicas de modelagem e elicitação utilizadas é possível capturar o conjunto completo de requisitos do sistema. Entre estes requisitos estão incluídos: os atributos de qualidade do sistema a ser criado, abrangendo requisitos de usabilidade, desempenho e suportabilidade. Além de outros requisitos, como sistemas operacionais e ambientes, requisitos de compatibilidade, restrições de design e legislação associada.</p>
@@ -111,8 +116,3 @@ Requisitos de Software GuiaBolso - Especificação Suplementar: <a href="https:/
 #### Termos de Uso
 
 * <p align="justify">O aplicativo apresenta seus termos de uso para que o usuário concorde em utilizar o aplicativo e suas informações dentro dos limites apresentados.</p>
-
-### Versionamento
-| Data | Versão | Descrição | Autor |
-| :--: | :---:  | --------- | :---: |
-| 30/09/2019 | 1.0 | Especificação Suplementar | [Ian Rocha](https://github.com/IanPSRocha) |
