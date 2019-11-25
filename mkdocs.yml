@@ -26,6 +26,7 @@ pages:
       - Cenários: verificacao_cenarios.md
       - Léxico: verificacao_lexicos.md
       - Backlog: verificacao_agil.md
+      - NFR: verificacao_nfr.md
     - Validação: validacao.md
   - PÓS-RASTREABILIDADE:
     - Matriz Forward-From: matrizforwardfrom.md
