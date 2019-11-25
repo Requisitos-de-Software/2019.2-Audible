@@ -2,10 +2,9 @@
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 | :---: | :---: | :---: | :---: |
-| 1.0 | 27/08/2019 | Adição do [RP1](#rp1-) | []() |
-| 1.1 | 27/08/2019 | Adição do [RP2](#rp2-) | []() |
-| 1.2 | 27/08/2019 | Adição do [RP3](#rp3-) | []() |
-| 2.0 | 30/10/2019 | Adição dos RichPictures restantes | []() |
+| 1.0 | 27/08/2019 | Adição do RP de [Loja](https://requisitos-de-software.github.io/2019.2-Audible/rich_picture/#rp4-loja) e [Avaliação](https://requisitos-de-software.github.io/2019.2-Audible/rich_picture/#rp6-avaliacao) | [Murilo Loiola](https://github.com/murilo-dan) |
+| 1.1 | 27/08/2019 | Adição do RP de [Atores](https://requisitos-de-software.github.io/2019.2-Audible/rich_picture/#rp2-atores) e [Usuários](https://requisitos-de-software.github.io/2019.2-Audible/rich_picture/#rp3-usuarios) | [André Goretti](https://github.com/Agoretti) |
+| 1.2 | 27/08/2019 | Adição do RP de [Livro](https://requisitos-de-software.github.io/2019.2-Audible/rich_picture/#rp5-livro) e [Geral](https://requisitos-de-software.github.io/2019.2-Audible/rich_picture/#rp1-geral) | [Thallys Braz](https://github.com/thallysbraz) |
 
 ## Introdução
 <p align="justify">&emsp;&emsp;O Rich Picture é uma técnica de requisitos de software, elaborada na fase de pré-rastreabilidade. São desenho feitos a mão ou digitalmente a fim de expressar ideias, que representam um subsistema de um sistema maior. É um artefato considerado informal e muito útil na identificação das partes envolvidas, a fim abrir espaço para discussões e ser uma forma de compreender o problema amplamente.</p>

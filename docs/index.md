@@ -13,5 +13,5 @@
 | ![ian](img/ian.png) | Ian Rocha | ianrocha.df@gmail.com | [@IanPSRocha](https://github.com/IanPSRocha) |
 | ![joao](img/joao.png) | João Gabriel Antunes | jg.antunes.medeiros@gmail.com | [@flyerjohn](https://github.com/flyerjohn) |
 | ![marco](img/marco.png) | Marco Antônio Costa | markinlimac@gmail.com | [@markinlimac](https://github.com/markinlimac) |
-| ![murilo](img/murilo.png) | Murilo Dantas | messhman.dmc@gmail.com | [@murilo-dan](https://github.com/murilo-dan) |
+| ![murilo](img/murilo.png) | Murilo Dantas | murilo.loiola.dan@gmail.com | [@murilo-dan](https://github.com/murilo-dan) |
 | ![thallys](img/thallys.png) | Thallys Braz | thallysbraz3@gmail.com | [@thallysbraz](https://github.com/thallysbraz) |
