@@ -10,26 +10,27 @@
 
 ## Observações
 
-| Léxico | Observações |
-| :-------: | ----------- |
-|  Todos  | - Revisar todos os cenários e adicionar rastreabilidade onde seja necessário, ajudando no versionamento |
-|   L1    | - Adicionar sinônimos |
-|   L4    | - Adicionar sinônimos |
-|   L5    | - Corrigir sinônimos |
-|   L6    | - Adicionar sinônimos |
-|   L7    | - Adicionar sinônimos |
-|   L8    | - Adicionar sinônimos |
-|   L9    | - Adicionar sinônimos |
-|   L10   | - Adicionar sinônimos |
+| Léxico | Observações                                                                                             |
+| :----: | ------------------------------------------------------------------------------------------------------- |
+| Todos  | - Revisar todos os cenários e adicionar rastreabilidade onde seja necessário, ajudando no versionamento |
+|   L1   | - Adicionar sinônimos                                                                                   |
+|   L4   | - Adicionar sinônimos                                                                                   |
+|   L5   | - Corrigir sinônimos                                                                                    |
+|   L6   | - Adicionar sinônimos                                                                                   |
+|   L7   | - Adicionar sinônimos                                                                                   |
+|   L8   | - Adicionar sinônimos                                                                                   |
+|   L9   | - Adicionar sinônimos                                                                                   |
+|  L10   | - Adicionar sinônimos                                                                                   |
 
 ## Conclusão
 
 <p align="justify">&emsp;&emsp;Pela análise feita a partir dos checkLists, os modelos gerados pelo grupo para o Audible ficaram bons. A falha mais notável nos modelos foi a falta de rastreabilidade, juntamente com vários casos em que não havia sinônimos ou estavam errados. As causas prováveis são: questões de tempo, atenção ou alinhamento com os outros membros.</p>
 
 ## Autores
-| Nome | Função |
-| ---- | ------ |
-| João Gabriel | Autor, Inspetor |
+
+| Nome          | Função           |
+| ------------- | ---------------- |
+| João Gabriel  | Autor, Inspetor  |
 | Marco Antônio | Leitor, Inspetor |
 
 ## Referências
@@ -39,7 +40,8 @@
 
 ## Versionamento
 
-| Data | Versão | Descrição | Autor |
-| ---- | ------ | --------- | ----- |
-| 04/11/2019 | 1.0 | Adicionando Verificação | [Ian Rocha](https://github.com/IanPSRocha) |
-| 04/11/2019 | 1.1 | Atualizando quadro | [Murilo Loiola](https://github.com/murilo-dan) |
+| Data       | Versão | Descrição               | Autor                                           |
+| ---------- | ------ | ----------------------- | ----------------------------------------------- |
+| 04/11/2019 | 1.0    | Adicionando Verificação | [Ian Rocha](https://github.com/IanPSRocha)      |
+| 04/11/2019 | 1.1    | Atualizando quadro      | [Murilo Loiola](https://github.com/murilo-dan)  |
+| 04/11/2019 | 1.2    | Atualizando quadro      | [Murilo Loiola](https://github.com/thallysbraz) |
