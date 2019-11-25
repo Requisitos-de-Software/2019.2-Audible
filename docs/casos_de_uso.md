@@ -1,8 +1,14 @@
 # Casos de Uso
+## Versionamento
+| Versão | Data | Modificação | Autor |
+| :---: | :---: | :---: | :---: |
+| 1.0 | 12/09/2019 | Criação do documento e adição de alguns Casos de Uso | [Murilo Loiola]((https://github.com/murilo-dan)) |
+| 1.1 | 12/09/2019 | Adição de mais Casos de Uso | [Thallyz Braz](https://github.com/thallysbraz) |
+| 1.2 | 12/09/2019 | Adição dos Casos de Uso restantes | [André Goretti](https://github.com/Agoretti) |
 
 ## Introdução
 
-Também chamados de diagramas comportamentais, na notação da UML, os casos de uso são usados para descrever um conjunto de ações (uses cases - casos de uso) que um sistema ou um conjunto de sistemas (subject - sujeito) deve desempenhar em colaboração com um ou mais indivíduos externos ao sistema (actors - atores). Cada caso de uso deverá prover algum resultado observável e de valor para os atores ou outros interessados do sistema.
+<p align="justify">&emsp;&emsp;Também chamados de diagramas comportamentais, na notação da UML, os casos de uso são usados para descrever um conjunto de ações (uses cases - casos de uso) que um sistema ou um conjunto de sistemas (subject - sujeito) deve desempenhar em colaboração com um ou mais indivíduos externos ao sistema (actors - atores). Cada caso de uso deverá prover algum resultado observável e de valor para os atores ou outros interessados do sistema.</p>
 
 ## Casos de Uso e Especificações
 
