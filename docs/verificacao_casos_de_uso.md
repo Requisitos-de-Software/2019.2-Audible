@@ -10,25 +10,26 @@
 
 ## Observações
 
-| Caso de Uso | Observações |
-| :-------: | ----------- |
-|  Todos  | - Revisar todos os léxicos e adicionar rastreabilidade aonde se prova necessário|
-|   CDU3    | - Adicionar fluxo alternativo e evidenciar o sistema |
-|   CDU4    | - Evidenciar o sistema |
-|   CDU5    | - Evidenciar o sistema |
-|   CDU6    | - Evidenciar o sistema |
-|   CDU7    | - Evidenciar o sistema |
-|   CDU8    | - Adicionar fluxo alternativo |
-|   CDU9    | - Evidenciar o sistema |
+| Caso de Uso | Observações                                                                      |
+| :---------: | -------------------------------------------------------------------------------- |
+|    Todos    | - Revisar todos os léxicos e adicionar rastreabilidade aonde se prova necessário |
+|    CDU3     | - Adicionar fluxo alternativo e evidenciar o sistema                             |
+|    CDU4     | - Evidenciar o sistema                                                           |
+|    CDU5     | - Evidenciar o sistema                                                           |
+|    CDU6     | - Evidenciar o sistema                                                           |
+|    CDU7     | - Evidenciar o sistema                                                           |
+|    CDU8     | - Adicionar fluxo alternativo                                                    |
+|    CDU9     | - Evidenciar o sistema                                                           |
 
 ## Conclusão
 
 <p align="justify">&emsp;&emsp;Pela análise feita a partir dos checkLists, os modelos gerados pelo grupo para o Audible ficaram bons. A falha mais notável nos modelos foi a falta de rastreabilidade, juntamente com alguns casos em que não havia um sistema dialogando com o ator. As causas prováveis são: questões de tempo, atenção ou alinhamento com os outros membros.</p>
 
 ## Autores
-| Nome | Função |
-| ---- | ------ |
-| Thallys Braz | Autor, Inspetor |
+
+| Nome          | Função           |
+| ------------- | ---------------- |
+| Thallys Braz  | Autor, Inspetor  |
 | André Goretti | Leitor, Inspetor |
 
 ## Referências
@@ -39,7 +40,8 @@
 
 ## Versionamento
 
-| Data | Versão | Descrição | Autor |
-| ---- | ------ | --------- | ----- |
-| 04/11/2019 | 1.0 | Adicionando Verificação | [Ian Rocha](https://github.com/IanPSRocha) |
-| 04/11/2019 | 1.1 | Atualizando quadro | [Murilo Loiola](https://github.com/murilo-dan) |
+| Data       | Versão | Descrição               | Autor                                          |
+| ---------- | ------ | ----------------------- | ---------------------------------------------- |
+| 04/11/2019 | 1.0    | Adicionando Verificação | [Ian Rocha](https://github.com/IanPSRocha)     |
+| 04/11/2019 | 1.1    | Atualizando quadro      | [Murilo Loiola](https://github.com/murilo-dan) |
+| 25/11/2019 | 1.2    | Atualizando quadro      | [Thallys Braz](https://github.com/thallysbraz) |
