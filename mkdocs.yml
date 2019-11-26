@@ -31,6 +31,7 @@ pages:
   - PÓS-RASTREABILIDADE:
     - Matriz Forward-From: matrizforwardfrom.md
     - Matriz Backward-From: matrizBackward-from.md
+    - Estrutura Analítica do Projeto: eap.md
   - PONTOS DE CONTROLE:
     - Ponto de controle 1: pc1.md
     - Ponto de controle 2: pc2.md
