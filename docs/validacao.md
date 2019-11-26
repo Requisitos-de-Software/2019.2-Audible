@@ -11,7 +11,35 @@
 
 <p align="justify">&emsp;&emsp;O grupo está ponderando sobre outras formas de validação, como a Prototipagem e a Validação Baseada em Ponto de Vista, para o caso de a tentativa de contato não ser bem sucedida.</p>
 
+## Validação 2.0
+
+<p align="justify">&emsp;&emsp;Visto que o grupo não obteve resposta para o e-mail enviado, não foi possível realizar a Validação Informal. Dessa forma, o grupo optou por fazer um protótipo para validar os requisitos elicitados. Seguem imagens das telas do protótipo feito. Novas telas serão adicionadas conforme o grupo perceber novos requisitos.</p>
+<center>
+####[O usuário deve ser capaz de avaliar o audiolivro de acordo com sua experiência.	](https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/#requisitos-nao-funcionais)
+[![](img/prot_aval.jpg)](img/prot_aval.jpg)
+####[A biblioteca/loja de audiolivros deve ser bem categorizada.](https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/#requisitos-funcionais)
+[![](img/prot_categoria.jpg)](img/prot_categoria.jpg)
+####[A biblioteca/loja de audiolivros deve ser bem categorizada.](https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/#requisitos-funcionais)
+[![](img/prot_download.jpg)](img/prot_download.jpg)
+####[O aplicativo deve ofertar audiolivros.](https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/#requisitos-funcionais)
+[![](img/prot_loja.jpg)](img/prot_loja.jpg)
+####[Busca de livros por narrador.](https://requisitos-de-software.github.io/2019.2-Audible/questionario/#requisitos-funcionais)
+[![](img/prot_narrador.jpg)](img/prot_narrador.jpg)
+####[Salvar biblioteca pessoal na nuvem.](https://requisitos-de-software.github.io/2019.2-Audible/questionario/#requisitos-funcionais)
+[![](img/prot_nuvem.jpg)](img/prot_nuvem.jpg)
+####[O aplicativo deve conter um ambiente para reprodução dos próprios audiolivros.](https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/#requisitos-funcionais)
+[![](img/prot_player.jpg)](img/prot_player.jpg)
+####[O usuário tem acesso a uma prévia do livro antes de efetuar a compra.](https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/#requisitos-funcionais)
+[![](img/prot_sample.jpg)](img/prot_sample.jpg)
+####[Adição de um tutorial de como usar o aplicativo.](https://requisitos-de-software.github.io/2019.2-Audible/introspeccao/#requisitos-levantados_1)
+[![](img/prot_tutorial.jpg)](img/prot_tutorial.jpg)
+####[O usuário deve ser capaz de personalizar a reprodução do áudio livro (ex: acelerar/reduzir a velocidade de reprodução).](https://requisitos-de-software.github.io/2019.2-Audible/brainstorm/#requisitos-nao-funcionais)
+[![](img/prot_velocidade.jpg)](img/prot_velocidade.jpg)
+####[Áreas de descoberta de novos livros baseada nos gostos do usuário.](https://requisitos-de-software.github.io/2019.2-Audible/questionario/#requisitos-nao-funcionais)
+[![](img/prot_sem.jpg)](prot_sem.jpg)
+</center>
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0 | 05/11 | Criação do documento | [João Gabriel Antunes](https://github.com/flyerjohn), [Murilo Loiola](https://github.com/murilo-dan) |
+|2.0 | 25/11 | Atualização com protótipo | [Murilo Loiola](https://github.com/murilo-dan) |
